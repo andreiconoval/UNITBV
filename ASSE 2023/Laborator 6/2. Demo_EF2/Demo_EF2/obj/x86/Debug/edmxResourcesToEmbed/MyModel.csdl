@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MyModel" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2009/11/edm" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+  <EntityContainer Name="MyModelContainer" annotation:LazyLoadingEnabled="true" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+    <EntitySet Name="Products" EntityType="MyModel.Product" />
+    <EntitySet Name="Categories" EntityType="MyModel.Category" />
+    <AssociationSet Name="ProductCategory" Association="MyModel.ProductCategory">
+      <End Role="Product" EntitySet="Products" />
+      <End Role="Category" EntitySet="Categories" />
+    </AssociationSet>
+    <AssociationSet Name="CategoryCategory" Association="MyModel.CategoryCategory">
+      <End Role="Category" EntitySet="Categories" />
+      <End Role="Category1" EntitySet="Categories" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ProductId" />
+    </Key>
+    <Property Type="Int32" Name="ProductId" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Type="String" Name="Name" MaxLength="40" Nullable="false" />
+    <Property Type="String" Name="Description" Nullable="true" MaxLength="100" />
+    <NavigationProperty Name="Category" Relationship="MyModel.ProductCategory" FromRole="Product" ToRole="Category" />
+    <Property Type="Int32" Name="CategoryId" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="CategoryId" />
+    </Key>
+    <Property Type="Int32" Name="CategoryId" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Description" Nullable="false" MaxLength="200" />
+    <NavigationProperty Name="Products" Relationship="MyModel.ProductCategory" FromRole="Category" ToRole="Product" />
+    <NavigationProperty Name="ParentCategory" Relationship="MyModel.CategoryCategory" FromRole="Category" ToRole="Category1" />
+    <NavigationProperty Name="Categories" Relationship="MyModel.CategoryCategory" FromRole="Category1" ToRole="Category" />
+    <Property Type="Int32" Name="ParentCategoryId" Nullable="true" />
+  </EntityType>
+  <Association Name="ProductCategory">
+    <End Type="MyModel.Product" Role="Product" Multiplicity="*" />
+    <End Type="MyModel.Category" Role="Category" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="CategoryId" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CategoryCategory">
+    <End Type="MyModel.Category" Role="Category" Multiplicity="*" />
+    <End Type="MyModel.Category" Role="Category1" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Category1">
+        <PropertyRef Name="CategoryId" />
+      </Principal>
+      <Dependent Role="Category">
+        <PropertyRef Name="ParentCategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

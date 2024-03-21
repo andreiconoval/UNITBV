@@ -1,0 +1,14 @@
+bin\Debug\WindowsSOAClient.exe.config
+bin\Debug\WindowsSOAClient.exe
+bin\Debug\WindowsSOAClient.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\WindowsSOAClient.FormMain.resources
+obj\Debug\WindowsSOAClient.Properties.Resources.resources
+obj\Debug\WindowsSOAClient.csproj.GenerateResource.Cache
+obj\Debug\WindowsSOAClient.exe
+obj\Debug\WindowsSOAClient.pdb
+obj\Debug\WindowsSOAClient.FormLogin.resources
+obj\Debug\WindowsSOAClient.FormUrl.resources
+obj\Debug\WindowsSOAClient.FormCustomer.resources
+obj\Debug\WindowsSOAClient.FormAbout.resources
+bin\Debug\WindowsSOAClient.XML

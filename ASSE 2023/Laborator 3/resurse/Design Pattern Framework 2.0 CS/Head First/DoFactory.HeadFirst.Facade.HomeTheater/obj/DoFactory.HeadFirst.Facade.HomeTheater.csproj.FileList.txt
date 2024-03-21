@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.HeadFirst.Facade.HomeTheater.exe
+bin\Debug\DoFactory.HeadFirst.Facade.HomeTheater.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.HeadFirst.Facade.HomeTheater.exe
+obj\Debug\DoFactory.HeadFirst.Facade.HomeTheater.pdb

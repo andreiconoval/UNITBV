@@ -1,0 +1,3 @@
+INDEX VERSION 1.134+A:\UNITBV\TPD 2023\wetransfer_materiale-laborator_2023-10-10_1417\laborator2\laborator2\.metadata\.plugins\org.eclipse.jdt.core
+2397438661.index
+3336309617.index

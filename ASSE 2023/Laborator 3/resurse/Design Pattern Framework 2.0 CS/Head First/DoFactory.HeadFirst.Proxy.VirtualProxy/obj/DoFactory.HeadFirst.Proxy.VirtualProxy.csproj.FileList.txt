@@ -1,0 +1,8 @@
+bin\Debug\DoFactory.HeadFirst.Proxy.VirtualProxy.exe
+bin\Debug\DoFactory.HeadFirst.Proxy.VirtualProxy.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.HeadFirst.Proxy.VirtualProxy.PlaceHolder.jpg
+obj\Debug\DoFactory.HeadFirst.Proxy.VirtualProxy.FormVirtualProxy.resources
+obj\Debug\DoFactory.HeadFirst.Proxy.VirtualProxy.csproj.GenerateResource.Cache
+obj\Debug\DoFactory.HeadFirst.Proxy.VirtualProxy.exe
+obj\Debug\DoFactory.HeadFirst.Proxy.VirtualProxy.pdb

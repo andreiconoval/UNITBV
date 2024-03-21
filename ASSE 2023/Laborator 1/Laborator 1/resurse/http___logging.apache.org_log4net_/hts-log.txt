@@ -1,0 +1,20 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 10 Oct 2020 11:34:10 at http://logging.apache.org/log4net/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://logging.apache.org/log4net/ -O1 "d:\My Web Sites\http___logging.apache.org_log4net_" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:45:30	Error: 	Exit requested by shell or user
+11:45:30	Warning: 	File not added due to mirror cancel: logging.apache.org/log4net/release/sdk/html/Methods_T_log4net_Util_AppenderAttachedImpl.htm
+11:45:31	Warning: 	File not added due to mirror cancel: logging.apache.org/log4net/release/sdk/html/Methods_T_log4net_Util_AppenderAttachedImpl.htm
+11:45:31	Warning: 	File not added due to mirror cancel: logging.apache.org/log4net/release/sdk/html/Methods_T_log4net_Util_AppenderAttachedImpl.htm
+11:45:31	Warning: 	File not added due to mirror cancel: logging.apache.org/log4net/release/sdk/html/Methods_T_log4net_Util_AppenderAttachedImpl.htm
+11:45:40	Error: 	"Not Found" (404) at link logging.apache.org/log4net/release/sdk/html/T_log4net_Util_PatternString_htm (from logging.apache.org/log4net/release/release-notes.html)
+11:45:41	Error: 	"Not Found" (404) at link logging.apache.org/log4net/release/sdk/html/T_log4net_Appender_FileAppender_LockingModel.htm (from logging.apache.org/log4net/release/release-notes.html)
+11:45:55	Error: 	"Not Found" (404) at link logging.apache.org/log4net/release/sdk/html/T_log4net_Appender_DynamicPatternLayout.htm (from logging.apache.org/log4net/release/config-examples.html)
+11:49:25	Error: 	"mirror stopped by user" (-1) at link logging.apache.org/log4net/release/sdk/html/Methods_T_log4net_Util_AppenderAttachedImpl.htm (from logging.apache.org/log4net/release/sdk/index.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 15 minutes 15 seconds : 1787 links scanned, 1782 files written (17571967 bytes overall) [5010650 bytes received at 5476 bytes/sec], 17475571 bytes transferred using HTTP compression in 1770 files, ratio 24%, 137.3 requests per connection
+(5 errors, 4 warnings, 0 messages)

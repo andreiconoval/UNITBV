@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c11e0b7d-3491-4145-ad89-ed192f355eb2" name="Lucian@LMS-UNITBV 2011-12-19 07:26:45" runUser="lms-unitbv\Lucian" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="2343c028-4ced-4602-b612-ebc4647c07ce">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Lucian_LMS-UNITBV 2011-12-19 07_26_45">
+      <DeploymentItem filename="d:\Work\school\cursuri\ASSE\2011-2012\Laborator\Laborator 11\delme\Rhino.Mocks.GettingStarted\Documentation\lib\Rhino.Mocks.dll" />
+      <DeploymentItem filename="d:\Work\school\cursuri\ASSE\2011-2012\Laborator\Laborator 11\cod\DemoMocking\DemoMocking\bin\Debug\DemoMocking.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-12-19T07:26:45.1315949+02:00" queuing="2011-12-19T07:26:48.0437614+02:00" start="2011-12-19T07:26:48.1757690+02:00" finish="2011-12-19T07:26:49.7458588+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethodNight" storage="d:\work\school\cursuri\asse\2011-2012\laborator\laborator 11\cod\demomocking\teswithmock\bin\debug\teswithmock.dll" id="06c71767-8b40-8f83-639b-626d6e2a0bce">
+      <Execution id="e1912601-80d5-4fb7-8489-930351e8bcf8" />
+      <TestMethod codeBase="d:/Work/school/cursuri/ASSE/2011-2012/Laborator/Laborator 11/cod/DemoMocking/TesWithMock/bin/Debug/TesWithMock.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesWithMock.UnitTest1, TesWithMock, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethodNight" />
+    </UnitTest>
+    <UnitTest name="TestMethodDay" storage="d:\work\school\cursuri\asse\2011-2012\laborator\laborator 11\cod\demomocking\teswithmock\bin\debug\teswithmock.dll" id="6f0330f0-c090-0e4b-7b36-04c42e3446ef">
+      <Execution id="9844f06f-1bd9-4dad-8725-ce6477464098" />
+      <TestMethod codeBase="d:/Work/school/cursuri/ASSE/2011-2012/Laborator/Laborator 11/cod/DemoMocking/TesWithMock/bin/Debug/TesWithMock.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesWithMock.UnitTest1, TesWithMock, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethodDay" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="06c71767-8b40-8f83-639b-626d6e2a0bce" executionId="e1912601-80d5-4fb7-8489-930351e8bcf8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f0330f0-c090-0e4b-7b36-04c42e3446ef" executionId="9844f06f-1bd9-4dad-8725-ce6477464098" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e1912601-80d5-4fb7-8489-930351e8bcf8" testId="06c71767-8b40-8f83-639b-626d6e2a0bce" testName="TestMethodNight" computerName="LMS-UNITBV" duration="00:00:00.4874173" startTime="2011-12-19T07:26:48.1997703+02:00" endTime="2011-12-19T07:26:49.5538478+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e1912601-80d5-4fb7-8489-930351e8bcf8">
+    </UnitTestResult>
+    <UnitTestResult executionId="9844f06f-1bd9-4dad-8725-ce6477464098" testId="6f0330f0-c090-0e4b-7b36-04c42e3446ef" testName="TestMethodDay" computerName="LMS-UNITBV" duration="00:00:00.0075433" startTime="2011-12-19T07:26:49.5608482+02:00" endTime="2011-12-19T07:26:49.5788492+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9844f06f-1bd9-4dad-8725-ce6477464098">
+    </UnitTestResult>
+  </Results>
+</TestRun>

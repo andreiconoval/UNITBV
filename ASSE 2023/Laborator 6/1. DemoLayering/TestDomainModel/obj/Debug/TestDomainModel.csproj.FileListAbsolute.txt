@@ -1,0 +1,36 @@
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\TestDomainModel\bin\Debug\TestDomainModel.dll.config
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\TestDomainModel\bin\Debug\TestDomainModel.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\TestDomainModel\bin\Debug\TestDomainModel.pdb
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\TestDomainModel\bin\Debug\DomainModel.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\TestDomainModel\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\TestDomainModel\bin\Debug\DomainModel.pdb
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\TestDomainModel\bin\Debug\DomainModel.dll.config
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\TestDomainModel\obj\Debug\TestDomainModel.csproj.AssemblyReference.cache
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\TestDomainModel\obj\Debug\TestDomainModel.csproj.CoreCompileInputs.cache
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\TestDomainModel\obj\Debug\TestDomainModel.csproj.CopyComplete
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\TestDomainModel\obj\Debug\TestDomainModel.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\TestDomainModel\obj\Debug\TestDomainModel.pdb
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\TestDomainModel\bin\Debug\TestDomainModel.dll.config
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\TestDomainModel\bin\Debug\TestDomainModel.dll
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\TestDomainModel\bin\Debug\TestDomainModel.pdb
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\TestDomainModel\bin\Debug\DomainModel.dll
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\TestDomainModel\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\TestDomainModel\bin\Debug\DomainModel.pdb
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\TestDomainModel\bin\Debug\DomainModel.dll.config
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\TestDomainModel\obj\Debug\TestDomainModel.csproj.AssemblyReference.cache
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\TestDomainModel\obj\Debug\TestDomainModel.csproj.CoreCompileInputs.cache
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\TestDomainModel\obj\Debug\TestDomainModel.csproj.CopyComplete
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\TestDomainModel\obj\Debug\TestDomainModel.dll
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\TestDomainModel\obj\Debug\TestDomainModel.pdb
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\TestDomainModel\bin\Debug\TestDomainModel.dll.config
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\TestDomainModel\bin\Debug\TestDomainModel.dll
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\TestDomainModel\bin\Debug\TestDomainModel.pdb
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\TestDomainModel\bin\Debug\DomainModel.dll
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\TestDomainModel\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\TestDomainModel\bin\Debug\DomainModel.pdb
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\TestDomainModel\bin\Debug\DomainModel.dll.config
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\TestDomainModel\obj\Debug\TestDomainModel.csproj.AssemblyReference.cache
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\TestDomainModel\obj\Debug\TestDomainModel.csproj.CoreCompileInputs.cache
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\TestDomainModel\obj\Debug\TestDomainModel.csproj.CopyComplete
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\TestDomainModel\obj\Debug\TestDomainModel.dll
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\TestDomainModel\obj\Debug\TestDomainModel.pdb

@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.HeadFirst.Singleton.Classic.exe
+bin\Debug\DoFactory.HeadFirst.Singleton.Classic.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.HeadFirst.Singleton.Classic.exe
+obj\Debug\DoFactory.HeadFirst.Singleton.Classic.pdb

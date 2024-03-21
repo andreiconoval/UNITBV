@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.HeadFirst.Command.Party.exe
+bin\Debug\DoFactory.HeadFirst.Command.Party.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.HeadFirst.Command.Party.exe
+obj\Debug\DoFactory.HeadFirst.Command.Party.pdb

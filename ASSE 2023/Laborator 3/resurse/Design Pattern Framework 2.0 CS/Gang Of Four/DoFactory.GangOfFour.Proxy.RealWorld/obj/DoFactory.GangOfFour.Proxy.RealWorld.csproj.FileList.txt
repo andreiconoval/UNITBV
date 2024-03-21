@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.GangOfFour.Proxy.RealWorld.exe
+bin\Debug\DoFactory.GangOfFour.Proxy.RealWorld.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.GangOfFour.Proxy.RealWorld.exe
+obj\Debug\DoFactory.GangOfFour.Proxy.RealWorld.pdb

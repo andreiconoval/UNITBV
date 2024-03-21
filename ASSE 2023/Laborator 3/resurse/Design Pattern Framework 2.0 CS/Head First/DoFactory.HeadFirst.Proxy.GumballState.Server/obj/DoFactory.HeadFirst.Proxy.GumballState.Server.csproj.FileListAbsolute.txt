@@ -1,0 +1,5 @@
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Proxy.GumballState.Server\bin\Debug\DoFactory.HeadFirst.Proxy.GumballState.Server.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Proxy.GumballState.Server\bin\Debug\DoFactory.HeadFirst.Proxy.GumballState.Server.pdb
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Proxy.GumballState.Server\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Proxy.GumballState.Server\obj\Debug\DoFactory.HeadFirst.Proxy.GumballState.Server.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Proxy.GumballState.Server\obj\Debug\DoFactory.HeadFirst.Proxy.GumballState.Server.pdb

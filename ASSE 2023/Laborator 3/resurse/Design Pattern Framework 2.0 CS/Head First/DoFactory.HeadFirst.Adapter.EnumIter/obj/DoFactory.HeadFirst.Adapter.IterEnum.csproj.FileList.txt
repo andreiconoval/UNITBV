@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.HeadFirst.Adapter.EnumIter.exe
+bin\Debug\DoFactory.HeadFirst.Adapter.EnumIter.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.HeadFirst.Adapter.EnumIter.exe
+obj\Debug\DoFactory.HeadFirst.Adapter.EnumIter.pdb

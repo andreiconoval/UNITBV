@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.HeadFirst.Singleton.DoubleChecked.exe
+bin\Debug\DoFactory.HeadFirst.Singleton.DoubleChecked.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.HeadFirst.Singleton.DoubleChecked.exe
+obj\Debug\DoFactory.HeadFirst.Singleton.DoubleChecked.pdb

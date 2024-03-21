@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.7.922.0">
+  <Summary numSequencePoints="11" visitedSequencePoints="8" numBranchPoints="6" visitedBranchPoints="5" sequenceCoverage="72.73" branchCoverage="83.33" maxCyclomaticComplexity="3" minCyclomaticComplexity="1" maxCrapScore="3" minCrapScore="2" visitedClasses="1" numClasses="2" visitedMethods="1" numMethods="2" />
+  <Modules>
+    <Module hash="58-FB-59-0A-33-38-56-6E-39-64-A2-9F-50-58-45-CA-E9-AF-06-BB">
+      <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+      <ModulePath>D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 8\cod\DemoMocking\TesWithMock\bin\Debug\fine-code-coverage\build-output\TesWithMock.dll</ModulePath>
+      <ModuleTime>2023-11-26T18:15:05.6332493Z</ModuleTime>
+      <ModuleName>TesWithMock</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+    <Module hash="C8-84-A3-D1-14-75-AE-BE-86-47-C2-EE-B2-86-31-CB-01-6B-12-06">
+      <Summary numSequencePoints="11" visitedSequencePoints="8" numBranchPoints="6" visitedBranchPoints="5" sequenceCoverage="72.73" branchCoverage="83.33" maxCyclomaticComplexity="3" minCyclomaticComplexity="1" maxCrapScore="3" minCrapScore="2" visitedClasses="1" numClasses="2" visitedMethods="1" numMethods="2" />
+      <ModulePath>D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 8\cod\DemoMocking\TesWithMock\bin\Debug\fine-code-coverage\build-output\DemoMocking.dll</ModulePath>
+      <ModuleTime>2023-11-26T18:15:04.7061564Z</ModuleTime>
+      <ModuleName>DemoMocking</ModuleName>
+      <Files>
+        <File uid="1" fullPath="D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 8\cod\DemoMocking\DemoMocking\CurrentDateTime.cs" />
+        <File uid="2" fullPath="D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 8\cod\DemoMocking\DemoMocking\ImageManagement.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>DemoMocking.CurrentDateTime</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Int32 DemoMocking.CurrentDateTime::GetHour()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="2" ordinal="1" offset="1" sl="18" sc="13" el="18" ec="38" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="3" ordinal="2" offset="17" sl="19" sc="9" el="19" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void DemoMocking.CurrentDateTime::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="4" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="5" visitedBranchPoints="5" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="3" minCyclomaticComplexity="1" maxCrapScore="3" minCrapScore="2" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>DemoMocking.ImageManagement</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="3" nPathComplexity="4" sequenceCoverage="100" branchCoverage="100" crapScore="3" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="5" visitedBranchPoints="5" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" maxCrapScore="3" minCrapScore="3" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.String DemoMocking.ImageManagement::GetImageForTimeOfDay(DemoMocking.IDateTime)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="5" ordinal="0" offset="0" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="6" ordinal="1" offset="1" sl="17" sc="13" el="17" ec="46" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="7" ordinal="2" offset="8" sl="19" sc="13" el="19" ec="55" bec="4" bev="4" fileid="2" />
+                <SequencePoint vc="1" uspid="8" ordinal="3" offset="27" sl="20" sc="13" el="20" ec="14" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="9" ordinal="4" offset="28" sl="21" sc="17" el="21" ec="34" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="10" ordinal="5" offset="36" sl="24" sc="13" el="24" ec="14" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="11" ordinal="6" offset="37" sl="25" sc="17" el="25" ec="35" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="3" uspid="12" ordinal="7" offset="45" sl="27" sc="9" el="27" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="2" uspid="13" ordinal="0" offset="10" sl="19" path="0" offsetend="12" fileid="2" />
+                <BranchPoint vc="1" uspid="14" ordinal="1" offset="10" sl="19" path="1" offsetend="22" fileid="2" />
+                <BranchPoint vc="1" uspid="15" ordinal="2" offset="25" sl="19" path="0" offsetend="27" fileid="2" />
+                <BranchPoint vc="2" uspid="16" ordinal="3" offset="25" sl="19" path="1" offsetend="36" fileid="2" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="5" ordinal="0" offset="0" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Void DemoMocking.ImageManagement::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="17" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>

@@ -1,0 +1,7 @@
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Template.WindowsService\bin\Debug\DoFactory.HeadFirst.Template.WindowsService.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Template.WindowsService\bin\Debug\DoFactory.HeadFirst.Template.WindowsService.pdb
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Template.WindowsService\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Template.WindowsService\obj\Debug\DoFactory.HeadFirst.Template.WindowsService.HeadFirstService.resources
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Template.WindowsService\obj\Debug\DoFactory.HeadFirst.Template.WindowsService.csproj.GenerateResource.Cache
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Template.WindowsService\obj\Debug\DoFactory.HeadFirst.Template.WindowsService.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Template.WindowsService\obj\Debug\DoFactory.HeadFirst.Template.WindowsService.pdb

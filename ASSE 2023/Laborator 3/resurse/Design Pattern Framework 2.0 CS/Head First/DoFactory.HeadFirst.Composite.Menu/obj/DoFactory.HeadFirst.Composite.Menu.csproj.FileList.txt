@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.HeadFirst.Composite.Menu.exe
+bin\Debug\DoFactory.HeadFirst.Composite.Menu.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.HeadFirst.Composite.Menu.exe
+obj\Debug\DoFactory.HeadFirst.Composite.Menu.pdb

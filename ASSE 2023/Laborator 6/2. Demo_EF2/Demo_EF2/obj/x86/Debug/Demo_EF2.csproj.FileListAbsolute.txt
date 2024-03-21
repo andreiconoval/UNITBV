@@ -1,0 +1,64 @@
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 8\delme\Demo_EF2\Demo_EF2\bin\Debug\Demo_EF2.exe.config
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 8\delme\Demo_EF2\Demo_EF2\bin\Debug\Demo_EF2.exe
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 8\delme\Demo_EF2\Demo_EF2\bin\Debug\Demo_EF2.pdb
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 8\delme\Demo_EF2\Demo_EF2\bin\Debug\EntityFramework.dll
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 8\delme\Demo_EF2\Demo_EF2\bin\Debug\EntityFramework.xml
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 8\delme\Demo_EF2\Demo_EF2\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 8\delme\Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.Form1.resources
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 8\delme\Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.Properties.Resources.resources
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 8\delme\Demo_EF2\Demo_EF2\obj\x86\Debug\GenerateResource.read.1.tlog
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 8\delme\Demo_EF2\Demo_EF2\obj\x86\Debug\GenerateResource.write.1.tlog
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 8\delme\Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.exe
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 8\delme\Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.pdb
+D:\Work\school\cursuri\ASSE\2013-2014\Laborator\Laborator 7\1. Demo_EF2\Demo_EF2\bin\Debug\Demo_EF2.exe.config
+D:\Work\school\cursuri\ASSE\2013-2014\Laborator\Laborator 7\1. Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.exe
+D:\Work\school\cursuri\ASSE\2013-2014\Laborator\Laborator 7\1. Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.pdb
+D:\work\school\cursuri\ASSE\2015-2016\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\bin\Debug\Demo_EF2.exe.config
+D:\work\school\cursuri\ASSE\2015-2016\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.exe
+D:\work\school\cursuri\ASSE\2015-2016\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.pdb
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\bin\Debug\Demo_EF2.exe.config
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\bin\Debug\Demo_EF2.exe
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\bin\Debug\Demo_EF2.pdb
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\bin\Debug\EntityFramework.dll
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\bin\Debug\EntityFramework.SqlServer.dll
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\bin\Debug\EntityFramework.xml
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\bin\Debug\EntityFramework.SqlServer.xml
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.csprojAssemblyReference.cache
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.Form1.resources
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.Properties.Resources.resources
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.csproj.GenerateResource.cache
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.csproj.CoreCompileInputs.cache
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.csproj.CopyComplete
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.exe
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.pdb
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\bin\Debug\Demo_EF2.exe.config
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\bin\Debug\Demo_EF2.exe
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\bin\Debug\Demo_EF2.pdb
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\bin\Debug\EntityFramework.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\bin\Debug\EntityFramework.SqlServer.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\bin\Debug\EntityFramework.xml
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\bin\Debug\EntityFramework.SqlServer.xml
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.csproj.AssemblyReference.cache
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.csproj.SuggestedBindingRedirects.cache
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.Form1.resources
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.Properties.Resources.resources
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.csproj.GenerateResource.cache
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.csproj.CoreCompileInputs.cache
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.csproj.CopyComplete
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.exe
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.pdb
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\bin\Debug\Demo_EF2.exe.config
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\bin\Debug\Demo_EF2.exe
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\bin\Debug\Demo_EF2.pdb
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\bin\Debug\EntityFramework.dll
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\bin\Debug\EntityFramework.SqlServer.dll
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\bin\Debug\EntityFramework.xml
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\bin\Debug\EntityFramework.SqlServer.xml
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.csproj.AssemblyReference.cache
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.Form1.resources
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.Properties.Resources.resources
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.csproj.GenerateResource.cache
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.csproj.CoreCompileInputs.cache
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.csproj.CopyComplete
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.exe
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\2. Demo_EF2\Demo_EF2\obj\x86\Debug\Demo_EF2.pdb

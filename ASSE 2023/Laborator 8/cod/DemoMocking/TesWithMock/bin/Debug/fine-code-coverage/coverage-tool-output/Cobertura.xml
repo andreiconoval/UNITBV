@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.727272727272727" branch-rate="1" lines-covered="8" lines-valid="11" branches-covered="4" branches-valid="4" complexity="4" version="0" timestamp="1701029809">
+  <sources />
+  <packages>
+    <package name="DemoMocking" line-rate="0.727272727272727" branch-rate="1" complexity="4">
+      <classes>
+        <class name="DemoMocking.CurrentDateTime" filename="D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 8\cod\DemoMocking\DemoMocking\CurrentDateTime.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="GetHour" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
+                <line number="19" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="19" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="DemoMocking.ImageManagement" filename="D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 8\cod\DemoMocking\DemoMocking\ImageManagement.cs" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods>
+            <method name="GetImageForTimeOfDay" signature="(DemoMocking.IDateTime)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="16" hits="3" branch="false" />
+                <line number="17" hits="3" branch="false" />
+                <line number="19" hits="3" branch="true" condition-coverage="100% (4/4)" />
+                <line number="20" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+                <line number="24" hits="2" branch="false" />
+                <line number="25" hits="2" branch="false" />
+                <line number="27" hits="3" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="3" branch="false" />
+            <line number="17" hits="3" branch="false" />
+            <line number="19" hits="3" branch="true" condition-coverage="100% (4/4)" />
+            <line number="20" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="24" hits="2" branch="false" />
+            <line number="25" hits="2" branch="false" />
+            <line number="27" hits="3" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

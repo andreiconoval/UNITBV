@@ -1,0 +1,8 @@
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Proxy.VirtualProxy\bin\Debug\DoFactory.HeadFirst.Proxy.VirtualProxy.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Proxy.VirtualProxy\bin\Debug\DoFactory.HeadFirst.Proxy.VirtualProxy.pdb
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Proxy.VirtualProxy\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Proxy.VirtualProxy\obj\Debug\DoFactory.HeadFirst.Proxy.VirtualProxy.PlaceHolder.jpg
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Proxy.VirtualProxy\obj\Debug\DoFactory.HeadFirst.Proxy.VirtualProxy.FormVirtualProxy.resources
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Proxy.VirtualProxy\obj\Debug\DoFactory.HeadFirst.Proxy.VirtualProxy.csproj.GenerateResource.Cache
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Proxy.VirtualProxy\obj\Debug\DoFactory.HeadFirst.Proxy.VirtualProxy.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Proxy.VirtualProxy\obj\Debug\DoFactory.HeadFirst.Proxy.VirtualProxy.pdb

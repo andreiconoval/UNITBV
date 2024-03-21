@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.HeadFirst.Decorator.Starbuzz.exe
+bin\Debug\DoFactory.HeadFirst.Decorator.Starbuzz.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.HeadFirst.Decorator.Starbuzz.exe
+obj\Debug\DoFactory.HeadFirst.Decorator.Starbuzz.pdb

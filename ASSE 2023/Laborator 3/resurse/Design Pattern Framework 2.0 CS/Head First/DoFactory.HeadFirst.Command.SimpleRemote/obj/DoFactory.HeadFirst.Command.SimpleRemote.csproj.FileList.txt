@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.HeadFirst.Command.SimpleRemote.exe
+bin\Debug\DoFactory.HeadFirst.Command.SimpleRemote.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.HeadFirst.Command.SimpleRemote.exe
+obj\Debug\DoFactory.HeadFirst.Command.SimpleRemote.pdb

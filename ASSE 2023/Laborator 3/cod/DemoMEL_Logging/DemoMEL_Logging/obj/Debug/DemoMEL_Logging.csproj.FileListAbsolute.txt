@@ -1,0 +1,27 @@
+D:\Temp\delme\DemoMEL_Logging\DemoMEL_Logging\bin\Debug\DemoMEL_Logging.exe.config
+D:\Temp\delme\DemoMEL_Logging\DemoMEL_Logging\bin\Debug\DemoMEL_Logging.exe
+D:\Temp\delme\DemoMEL_Logging\DemoMEL_Logging\bin\Debug\DemoMEL_Logging.pdb
+D:\Temp\delme\DemoMEL_Logging\DemoMEL_Logging\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Temp\delme\DemoMEL_Logging\DemoMEL_Logging\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Temp\delme\DemoMEL_Logging\DemoMEL_Logging\bin\Debug\Newtonsoft.Json.dll
+D:\Temp\delme\DemoMEL_Logging\DemoMEL_Logging\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Temp\delme\DemoMEL_Logging\DemoMEL_Logging\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+D:\Temp\delme\DemoMEL_Logging\DemoMEL_Logging\obj\Debug\DemoMEL_Logging.Form1.resources
+D:\Temp\delme\DemoMEL_Logging\DemoMEL_Logging\obj\Debug\DemoMEL_Logging.Properties.Resources.resources
+D:\Temp\delme\DemoMEL_Logging\DemoMEL_Logging\obj\Debug\DemoMEL_Logging.csproj.GenerateResource.Cache
+D:\Temp\delme\DemoMEL_Logging\DemoMEL_Logging\obj\Debug\DemoMEL_Logging.exe
+D:\Temp\delme\DemoMEL_Logging\DemoMEL_Logging\obj\Debug\DemoMEL_Logging.pdb
+D:\work\school\cursuri\ASSE\2015-2016\Laborator\Laborator 3\cod\DemoMEL_Logging\DemoMEL_Logging\bin\Debug\DemoMEL_Logging.exe.config
+D:\work\school\cursuri\ASSE\2015-2016\Laborator\Laborator 3\cod\DemoMEL_Logging\DemoMEL_Logging\obj\Debug\DemoMEL_Logging.exe
+D:\work\school\cursuri\ASSE\2015-2016\Laborator\Laborator 3\cod\DemoMEL_Logging\DemoMEL_Logging\obj\Debug\DemoMEL_Logging.pdb
+D:\work\school\cursuri\ASSE\2015-2016\Laborator\Laborator 3\cod\DemoMEL_Logging\DemoMEL_Logging\bin\Debug\DemoMEL_Logging.exe
+D:\work\school\cursuri\ASSE\2015-2016\Laborator\Laborator 3\cod\DemoMEL_Logging\DemoMEL_Logging\bin\Debug\DemoMEL_Logging.pdb
+D:\work\school\cursuri\ASSE\2015-2016\Laborator\Laborator 3\cod\DemoMEL_Logging\DemoMEL_Logging\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\work\school\cursuri\ASSE\2015-2016\Laborator\Laborator 3\cod\DemoMEL_Logging\DemoMEL_Logging\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\work\school\cursuri\ASSE\2015-2016\Laborator\Laborator 3\cod\DemoMEL_Logging\DemoMEL_Logging\bin\Debug\Newtonsoft.Json.dll
+D:\work\school\cursuri\ASSE\2015-2016\Laborator\Laborator 3\cod\DemoMEL_Logging\DemoMEL_Logging\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\work\school\cursuri\ASSE\2015-2016\Laborator\Laborator 3\cod\DemoMEL_Logging\DemoMEL_Logging\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+D:\work\school\cursuri\ASSE\2015-2016\Laborator\Laborator 3\cod\DemoMEL_Logging\DemoMEL_Logging\obj\Debug\DemoMEL_Logging.csprojResolveAssemblyReference.cache
+D:\work\school\cursuri\ASSE\2015-2016\Laborator\Laborator 3\cod\DemoMEL_Logging\DemoMEL_Logging\obj\Debug\DemoMEL_Logging.Form1.resources
+D:\work\school\cursuri\ASSE\2015-2016\Laborator\Laborator 3\cod\DemoMEL_Logging\DemoMEL_Logging\obj\Debug\DemoMEL_Logging.Properties.Resources.resources
+D:\work\school\cursuri\ASSE\2015-2016\Laborator\Laborator 3\cod\DemoMEL_Logging\DemoMEL_Logging\obj\Debug\DemoMEL_Logging.csproj.GenerateResource.Cache

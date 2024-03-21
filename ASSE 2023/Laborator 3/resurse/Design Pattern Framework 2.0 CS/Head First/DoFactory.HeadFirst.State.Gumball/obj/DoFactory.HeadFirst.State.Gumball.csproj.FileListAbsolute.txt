@@ -1,0 +1,5 @@
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.State.Gumball\bin\Debug\DoFactory.HeadFirst.State.Gumball.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.State.Gumball\bin\Debug\DoFactory.HeadFirst.State.Gumball.pdb
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.State.Gumball\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.State.Gumball\obj\Debug\DoFactory.HeadFirst.State.Gumball.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.State.Gumball\obj\Debug\DoFactory.HeadFirst.State.Gumball.pdb

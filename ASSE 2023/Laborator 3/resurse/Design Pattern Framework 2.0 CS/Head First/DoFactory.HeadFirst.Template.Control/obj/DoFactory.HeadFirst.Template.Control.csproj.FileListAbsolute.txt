@@ -1,0 +1,7 @@
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Template.Control\bin\Debug\DoFactory.HeadFirst.Template.Control.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Template.Control\bin\Debug\DoFactory.HeadFirst.Template.Control.pdb
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Template.Control\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Template.Control\obj\Debug\DoFactory.HeadFirst.Template.Control.Form1.resources
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Template.Control\obj\Debug\DoFactory.HeadFirst.Template.Control.csproj.GenerateResource.Cache
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Template.Control\obj\Debug\DoFactory.HeadFirst.Template.Control.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Template.Control\obj\Debug\DoFactory.HeadFirst.Template.Control.pdb

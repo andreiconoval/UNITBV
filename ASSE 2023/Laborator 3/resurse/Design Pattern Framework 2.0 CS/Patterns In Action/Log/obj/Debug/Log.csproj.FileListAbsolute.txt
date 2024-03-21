@@ -1,0 +1,13 @@
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 4\resurse\Design Pattern Framework 2.0 CS\Patterns In Action\Log\bin\Debug\Log.dll
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 4\resurse\Design Pattern Framework 2.0 CS\Patterns In Action\Log\bin\Debug\Log.pdb
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 4\resurse\Design Pattern Framework 2.0 CS\Patterns In Action\Log\obj\Debug\ResolveAssemblyReference.cache
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 4\resurse\Design Pattern Framework 2.0 CS\Patterns In Action\Log\obj\Debug\Log.dll
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 4\resurse\Design Pattern Framework 2.0 CS\Patterns In Action\Log\obj\Debug\Log.pdb
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 4\resurse\Design Pattern Framework 2.0 CS\Patterns In Action\Log\bin\Debug\Log.XML
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 3\resurse\Design Pattern Framework 2.0 CS\Patterns In Action\Log\bin\Debug\Log.XML
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 3\resurse\Design Pattern Framework 2.0 CS\Patterns In Action\Log\bin\Debug\Log.dll
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 3\resurse\Design Pattern Framework 2.0 CS\Patterns In Action\Log\bin\Debug\Log.pdb
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 3\resurse\Design Pattern Framework 2.0 CS\Patterns In Action\Log\obj\Debug\Log.csproj.AssemblyReference.cache
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 3\resurse\Design Pattern Framework 2.0 CS\Patterns In Action\Log\obj\Debug\Log.csproj.CoreCompileInputs.cache
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 3\resurse\Design Pattern Framework 2.0 CS\Patterns In Action\Log\obj\Debug\Log.dll
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 3\resurse\Design Pattern Framework 2.0 CS\Patterns In Action\Log\obj\Debug\Log.pdb

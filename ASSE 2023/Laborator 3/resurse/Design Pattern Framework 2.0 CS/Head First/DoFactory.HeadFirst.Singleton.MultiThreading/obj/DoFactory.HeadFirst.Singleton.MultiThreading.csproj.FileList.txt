@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.HeadFirst.Singleton.MultiThreading.exe
+bin\Debug\DoFactory.HeadFirst.Singleton.MultiThreading.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.HeadFirst.Singleton.MultiThreading.exe
+obj\Debug\DoFactory.HeadFirst.Singleton.MultiThreading.pdb

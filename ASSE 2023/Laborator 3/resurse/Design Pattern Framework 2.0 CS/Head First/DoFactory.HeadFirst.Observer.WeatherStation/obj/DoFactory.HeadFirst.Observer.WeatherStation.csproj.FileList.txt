@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.HeadFirst.Observer.WeatherStation.exe
+bin\Debug\DoFactory.HeadFirst.Observer.WeatherStation.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.HeadFirst.Observer.WeatherStation.exe
+obj\Debug\DoFactory.HeadFirst.Observer.WeatherStation.pdb

@@ -1,0 +1,8 @@
+bin\Debug\DataObjects.dll
+bin\Debug\DataObjects.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DataObjects.dll
+obj\Debug\DataObjects.pdb
+bin\Debug\BusinessObjects.dll
+bin\Debug\BusinessObjects.pdb
+bin\Debug\BusinessObjects.xml

@@ -1,0 +1,48 @@
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\TestServiceLayer.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\TestServiceLayer.pdb
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\ServiceLayer.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\DomainModel.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\DataMapper.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\ServiceLayer.pdb
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\ServiceLayer.dll.config
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\DomainModel.pdb
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\DomainModel.dll.config
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\DataMapper.pdb
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\obj\Debug\TestServiceLayer.csproj.AssemblyReference.cache
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\obj\Debug\TestServiceLayer.csproj.CoreCompileInputs.cache
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\obj\Debug\TestServiceLayer.csproj.CopyComplete
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\obj\Debug\TestServiceLayer.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\obj\Debug\TestServiceLayer.pdb
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\TestServiceLayer.dll
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\TestServiceLayer.pdb
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\ServiceLayer.dll
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\DomainModel.dll
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\DataMapper.dll
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\ServiceLayer.pdb
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\ServiceLayer.dll.config
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\DomainModel.pdb
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\DomainModel.dll.config
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\DataMapper.pdb
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\obj\Debug\TestServiceLayer.csproj.AssemblyReference.cache
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\obj\Debug\TestServiceLayer.csproj.CoreCompileInputs.cache
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\obj\Debug\TestServiceLayer.csproj.CopyComplete
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\obj\Debug\TestServiceLayer.dll
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\TestServiceLayer\obj\Debug\TestServiceLayer.pdb
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\TestServiceLayer.dll
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\TestServiceLayer.pdb
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\ServiceLayer.dll
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\DomainModel.dll
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\DataMapper.dll
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\ServiceLayer.pdb
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\ServiceLayer.dll.config
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\DomainModel.pdb
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\DomainModel.dll.config
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\TestServiceLayer\bin\Debug\DataMapper.pdb
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\TestServiceLayer\obj\Debug\TestServiceLayer.csproj.AssemblyReference.cache
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\TestServiceLayer\obj\Debug\TestServiceLayer.csproj.CoreCompileInputs.cache
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\TestServiceLayer\obj\Debug\TestServiceLayer.csproj.CopyComplete
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\TestServiceLayer\obj\Debug\TestServiceLayer.dll
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\TestServiceLayer\obj\Debug\TestServiceLayer.pdb

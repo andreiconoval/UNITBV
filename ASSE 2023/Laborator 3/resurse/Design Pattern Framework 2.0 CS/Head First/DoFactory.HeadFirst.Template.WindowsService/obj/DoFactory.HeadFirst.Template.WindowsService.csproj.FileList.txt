@@ -1,0 +1,7 @@
+bin\Debug\DoFactory.HeadFirst.Template.WindowsService.exe
+bin\Debug\DoFactory.HeadFirst.Template.WindowsService.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.HeadFirst.Template.WindowsService.HeadFirstService.resources
+obj\Debug\DoFactory.HeadFirst.Template.WindowsService.csproj.GenerateResource.Cache
+obj\Debug\DoFactory.HeadFirst.Template.WindowsService.exe
+obj\Debug\DoFactory.HeadFirst.Template.WindowsService.pdb

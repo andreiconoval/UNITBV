@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.HeadFirst.Compound.Ducks.exe
+bin\Debug\DoFactory.HeadFirst.Compound.Ducks.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.HeadFirst.Compound.Ducks.exe
+obj\Debug\DoFactory.HeadFirst.Compound.Ducks.pdb

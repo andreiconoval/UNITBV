@@ -1,0 +1,45 @@
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\ServiceLayer\bin\Debug\ServiceLayer.dll.config
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\ServiceLayer\bin\Debug\ServiceLayer.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\ServiceLayer\bin\Debug\ServiceLayer.pdb
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\ServiceLayer\bin\Debug\DataMapper.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\ServiceLayer\bin\Debug\DomainModel.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\ServiceLayer\bin\Debug\EntityFramework.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\ServiceLayer\bin\Debug\DataMapper.pdb
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\ServiceLayer\bin\Debug\DomainModel.pdb
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\ServiceLayer\bin\Debug\DomainModel.dll.config
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\ServiceLayer\bin\Debug\EntityFramework.xml
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\ServiceLayer\obj\Debug\ServiceLayer.csproj.AssemblyReference.cache
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\ServiceLayer\obj\Debug\ServiceLayer.csproj.CoreCompileInputs.cache
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\ServiceLayer\obj\Debug\ServiceLayer.csproj.CopyComplete
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\ServiceLayer\obj\Debug\ServiceLayer.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\ServiceLayer\obj\Debug\ServiceLayer.pdb
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\ServiceLayer\bin\Debug\ServiceLayer.dll.config
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\ServiceLayer\bin\Debug\ServiceLayer.dll
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\ServiceLayer\bin\Debug\ServiceLayer.pdb
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\ServiceLayer\bin\Debug\DataMapper.dll
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\ServiceLayer\bin\Debug\DomainModel.dll
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\ServiceLayer\bin\Debug\EntityFramework.dll
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\ServiceLayer\bin\Debug\DataMapper.pdb
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\ServiceLayer\bin\Debug\DomainModel.pdb
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\ServiceLayer\bin\Debug\DomainModel.dll.config
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\ServiceLayer\bin\Debug\EntityFramework.xml
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\ServiceLayer\obj\Debug\ServiceLayer.csproj.AssemblyReference.cache
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\ServiceLayer\obj\Debug\ServiceLayer.csproj.CoreCompileInputs.cache
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\ServiceLayer\obj\Debug\ServiceLayer.csproj.CopyComplete
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\ServiceLayer\obj\Debug\ServiceLayer.dll
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\ServiceLayer\obj\Debug\ServiceLayer.pdb
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\ServiceLayer\bin\Debug\ServiceLayer.dll.config
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\ServiceLayer\bin\Debug\ServiceLayer.dll
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\ServiceLayer\bin\Debug\ServiceLayer.pdb
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\ServiceLayer\bin\Debug\DataMapper.dll
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\ServiceLayer\bin\Debug\DomainModel.dll
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\ServiceLayer\bin\Debug\EntityFramework.dll
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\ServiceLayer\bin\Debug\DataMapper.pdb
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\ServiceLayer\bin\Debug\DomainModel.pdb
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\ServiceLayer\bin\Debug\DomainModel.dll.config
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\ServiceLayer\bin\Debug\EntityFramework.xml
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\ServiceLayer\obj\Debug\ServiceLayer.csproj.AssemblyReference.cache
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\ServiceLayer\obj\Debug\ServiceLayer.csproj.CoreCompileInputs.cache
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\ServiceLayer\obj\Debug\ServiceLayer.csproj.CopyComplete
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\ServiceLayer\obj\Debug\ServiceLayer.dll
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\ServiceLayer\obj\Debug\ServiceLayer.pdb

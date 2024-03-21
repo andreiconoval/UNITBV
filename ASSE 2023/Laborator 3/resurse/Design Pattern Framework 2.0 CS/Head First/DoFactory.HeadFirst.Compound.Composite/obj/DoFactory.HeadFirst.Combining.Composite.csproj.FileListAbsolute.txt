@@ -1,0 +1,5 @@
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Compound.Composite\bin\Debug\DoFactory.HeadFirst.Compound.Composite.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Compound.Composite\bin\Debug\DoFactory.HeadFirst.Compound.Composite.pdb
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Compound.Composite\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Compound.Composite\obj\Debug\DoFactory.HeadFirst.Compound.Composite.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Compound.Composite\obj\Debug\DoFactory.HeadFirst.Compound.Composite.pdb

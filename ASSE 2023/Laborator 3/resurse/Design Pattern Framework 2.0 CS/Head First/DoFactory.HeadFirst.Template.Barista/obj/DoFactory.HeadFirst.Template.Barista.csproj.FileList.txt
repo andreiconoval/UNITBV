@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.HeadFirst.Template.Barista.exe
+bin\Debug\DoFactory.HeadFirst.Template.Barista.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.HeadFirst.Template.Barista.exe
+obj\Debug\DoFactory.HeadFirst.Template.Barista.pdb

@@ -1,0 +1,5 @@
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Singleton.DoubleChecked\bin\Debug\DoFactory.HeadFirst.Singleton.DoubleChecked.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Singleton.DoubleChecked\bin\Debug\DoFactory.HeadFirst.Singleton.DoubleChecked.pdb
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Singleton.DoubleChecked\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Singleton.DoubleChecked\obj\Debug\DoFactory.HeadFirst.Singleton.DoubleChecked.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Singleton.DoubleChecked\obj\Debug\DoFactory.HeadFirst.Singleton.DoubleChecked.pdb

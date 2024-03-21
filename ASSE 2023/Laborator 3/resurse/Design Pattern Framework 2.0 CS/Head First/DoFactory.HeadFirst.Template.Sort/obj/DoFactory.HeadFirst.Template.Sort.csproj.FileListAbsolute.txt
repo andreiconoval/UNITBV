@@ -1,0 +1,5 @@
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Template.Sort\bin\Debug\DoFactory.HeadFirst.Template.Sort.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Template.Sort\bin\Debug\DoFactory.HeadFirst.Template.Sort.pdb
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Template.Sort\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Template.Sort\obj\Debug\DoFactory.HeadFirst.Template.Sort.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Template.Sort\obj\Debug\DoFactory.HeadFirst.Template.Sort.pdb

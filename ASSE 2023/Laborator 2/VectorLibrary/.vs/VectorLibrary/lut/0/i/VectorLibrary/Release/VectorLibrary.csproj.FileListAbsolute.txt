@@ -1,0 +1,6 @@
+D:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 2\VectorLibrary\.vs\VectorLibrary\lut\0\b\VectorLibrary\bin\Release\VectorLibrary.dll
+D:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 2\VectorLibrary\.vs\VectorLibrary\lut\0\b\VectorLibrary\bin\Release\VectorLibrary.pdb
+D:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 2\VectorLibrary\.vs\VectorLibrary\lut\0\i\VectorLibrary\Release\VectorLibrary.csprojResolveAssemblyReference.cache
+D:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 2\VectorLibrary\.vs\VectorLibrary\lut\0\i\VectorLibrary\Release\VectorLibrary.csproj.CoreCompileInputs.cache
+D:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 2\VectorLibrary\.vs\VectorLibrary\lut\0\i\VectorLibrary\Release\VectorLibrary.dll
+D:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 2\VectorLibrary\.vs\VectorLibrary\lut\0\i\VectorLibrary\Release\VectorLibrary.pdb

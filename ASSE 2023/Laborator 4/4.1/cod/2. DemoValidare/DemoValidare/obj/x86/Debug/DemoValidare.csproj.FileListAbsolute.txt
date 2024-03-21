@@ -1,0 +1,211 @@
+d:\Work\school\cursuri\ASSE\2010-2011\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\Work\school\cursuri\ASSE\2010-2011\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.Properties.Resources.resources
+d:\Work\school\cursuri\ASSE\2010-2011\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\obj\x86\Debug\GenerateResource.read.1.tlog
+d:\Work\school\cursuri\ASSE\2010-2011\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\obj\x86\Debug\GenerateResource.write.1.tlog
+d:\Work\school\cursuri\ASSE\2010-2011\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\DemoValidare.exe
+d:\Work\school\cursuri\ASSE\2010-2011\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\DemoValidare.pdb
+d:\Work\school\cursuri\ASSE\2010-2011\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+d:\Work\school\cursuri\ASSE\2010-2011\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+d:\Work\school\cursuri\ASSE\2010-2011\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.dll
+d:\Work\school\cursuri\ASSE\2010-2011\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+d:\Work\school\cursuri\ASSE\2010-2011\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+d:\Work\school\cursuri\ASSE\2010-2011\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+d:\Work\school\cursuri\ASSE\2010-2011\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+d:\Work\school\cursuri\ASSE\2010-2011\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+d:\Work\school\cursuri\ASSE\2010-2011\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.pdb
+d:\Work\school\cursuri\ASSE\2010-2011\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+d:\Work\school\cursuri\ASSE\2010-2011\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.pdb
+d:\Work\school\cursuri\ASSE\2010-2011\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+d:\Work\school\cursuri\ASSE\2010-2011\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Interception.pdb
+d:\Work\school\cursuri\ASSE\2010-2011\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Configuration.pdb
+d:\Work\school\cursuri\ASSE\2010-2011\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.exe
+d:\Work\school\cursuri\ASSE\2010-2011\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.pdb
+d:\Work\school\cursuri\ASSE\2010-2011\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.Form1.resources
+d:\Work\school\cursuri\ASSE\2011-2012\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.exe
+d:\Work\school\cursuri\ASSE\2011-2012\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.pdb
+D:\Work\school\cursuri\ASSE\2011-2012\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\DemoValidare.exe
+D:\Work\school\cursuri\ASSE\2011-2012\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\DemoValidare.pdb
+D:\Work\school\cursuri\ASSE\2011-2012\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Work\school\cursuri\ASSE\2011-2012\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+D:\Work\school\cursuri\ASSE\2011-2012\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Work\school\cursuri\ASSE\2011-2012\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Work\school\cursuri\ASSE\2011-2012\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Work\school\cursuri\ASSE\2011-2012\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Work\school\cursuri\ASSE\2011-2012\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+D:\Work\school\cursuri\ASSE\2011-2012\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Work\school\cursuri\ASSE\2011-2012\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.pdb
+D:\Work\school\cursuri\ASSE\2011-2012\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+D:\Work\school\cursuri\ASSE\2011-2012\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.pdb
+D:\Work\school\cursuri\ASSE\2011-2012\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Work\school\cursuri\ASSE\2011-2012\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Interception.pdb
+D:\Work\school\cursuri\ASSE\2011-2012\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Configuration.pdb
+D:\Work\school\cursuri\ASSE\2011-2012\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Work\school\cursuri\ASSE\2011-2012\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.Form1.resources
+D:\Work\school\cursuri\ASSE\2011-2012\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.Properties.Resources.resources
+D:\Work\school\cursuri\ASSE\2011-2012\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Work\school\cursuri\ASSE\2011-2012\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\obj\x86\Debug\GenerateResource.write.1.tlog
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.exe
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 5\cod\DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.pdb
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 5\5.1\cod\DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.exe
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 5\5.1\cod\DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.pdb
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 5\5.1\cod\DemoValidare\DemoValidare\bin\Debug\DemoValidare.exe
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 5\5.1\cod\DemoValidare\DemoValidare\bin\Debug\DemoValidare.pdb
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 5\5.1\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 5\5.1\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 5\5.1\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.dll
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 5\5.1\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 5\5.1\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 5\5.1\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 5\5.1\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 5\5.1\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 5\5.1\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.pdb
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 5\5.1\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 5\5.1\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.pdb
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 5\5.1\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 5\5.1\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Interception.pdb
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 5\5.1\cod\DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Configuration.pdb
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 5\5.1\cod\DemoValidare\DemoValidare\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 5\5.1\cod\DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.Form1.resources
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 5\5.1\cod\DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.Properties.Resources.resources
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 5\5.1\cod\DemoValidare\DemoValidare\obj\x86\Debug\GenerateResource.read.1.tlog
+d:\Work\school\cursuri\ASSE\2012-2013\Laborator\Laborator 5\5.1\cod\DemoValidare\DemoValidare\obj\x86\Debug\GenerateResource.write.1.tlog
+d:\Work\school\cursuri\ASSE\2013-2014\Laborator\Laborator 5\5.1\cod\DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.exe
+d:\Work\school\cursuri\ASSE\2013-2014\Laborator\Laborator 5\5.1\cod\DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.pdb
+d:\Work\school\cursuri\ASSE\2013-2014\Laborator\Laborator 5\5.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.exe
+d:\Work\school\cursuri\ASSE\2013-2014\Laborator\Laborator 5\5.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.pdb
+F:\school\asse\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.exe
+F:\school\asse\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.pdb
+F:\school\asse\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\DemoValidare.exe
+F:\school\asse\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\DemoValidare.pdb
+F:\school\asse\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.dll
+F:\school\asse\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\school\asse\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+F:\school\asse\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+F:\school\asse\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+F:\school\asse\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+F:\school\asse\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.pdb
+F:\school\asse\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+F:\school\asse\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.pdb
+F:\school\asse\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+F:\school\asse\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Interception.pdb
+F:\school\asse\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Configuration.pdb
+F:\school\asse\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.csprojResolveAssemblyReference.cache
+F:\school\asse\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.Form1.resources
+F:\school\asse\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.Properties.Resources.resources
+F:\school\asse\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.csproj.GenerateResource.Cache
+E:\temp\delme\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.exe
+E:\temp\delme\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.pdb
+E:\temp\delme\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.Form1.resources
+E:\temp\delme\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.Properties.Resources.resources
+E:\temp\delme\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.csproj.GenerateResource.Cache
+E:\temp\delme\2. DemoValidare\DemoValidare\bin\Debug\DemoValidare.exe
+E:\temp\delme\2. DemoValidare\DemoValidare\bin\Debug\DemoValidare.pdb
+E:\temp\delme\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+E:\temp\delme\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\temp\delme\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+E:\temp\delme\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\temp\delme\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+E:\temp\delme\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.dll
+E:\temp\delme\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+E:\temp\delme\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\temp\delme\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\temp\delme\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\temp\delme\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\temp\delme\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.xml
+E:\temp\delme\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+E:\temp\delme\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+E:\temp\delme\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+D:\work\school\cursuri\ASSE\2015-2016\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.exe
+D:\work\school\cursuri\ASSE\2015-2016\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.pdb
+D:\work\school\cursuri\ASSE\2016-2017\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.exe
+D:\work\school\cursuri\ASSE\2016-2017\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.pdb
+d:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\DemoValidare.exe
+d:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\DemoValidare.pdb
+d:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+d:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+d:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+d:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+d:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.dll
+d:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+d:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+d:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+d:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+d:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+d:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+d:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.xml
+d:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+d:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+d:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+d:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.csprojResolveAssemblyReference.cache
+d:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.Form1.resources
+d:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.Properties.Resources.resources
+d:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.csproj.GenerateResource.Cache
+d:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.csproj.CoreCompileInputs.cache
+d:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.exe
+d:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.pdb
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\DemoValidare.exe
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\DemoValidare.pdb
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.dll
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.xml
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.csprojAssemblyReference.cache
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.Form1.resources
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.Properties.Resources.resources
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.csproj.GenerateResource.cache
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.csproj.CoreCompileInputs.cache
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.csproj.CopyComplete
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.exe
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.pdb
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\DemoValidare.exe
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\DemoValidare.pdb
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.dll
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.xml
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.csprojAssemblyReference.cache
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.Form1.resources
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.Properties.Resources.resources
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.csproj.GenerateResource.cache
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.csproj.CoreCompileInputs.cache
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.csproj.CopyComplete
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.exe
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.pdb
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\DemoValidare.exe.config
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\DemoValidare.exe
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\DemoValidare.pdb
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.csproj.AssemblyReference.cache
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.csproj.SuggestedBindingRedirects.cache
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.Form1.resources
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.Properties.Resources.resources
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.csproj.GenerateResource.cache
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.csproj.CoreCompileInputs.cache
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.csproj.CopyComplete
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.exe
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 4\4.1\cod\2. DemoValidare\DemoValidare\obj\x86\Debug\DemoValidare.pdb

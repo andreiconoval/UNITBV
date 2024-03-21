@@ -1,0 +1,42 @@
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\DataMapper\bin\Debug\DataMapper.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\DataMapper\bin\Debug\DataMapper.pdb
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\DataMapper\bin\Debug\DomainModel.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\DataMapper\bin\Debug\EntityFramework.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\DataMapper\bin\Debug\EntityFramework.SqlServer.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\DataMapper\bin\Debug\DomainModel.pdb
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\DataMapper\bin\Debug\DomainModel.dll.config
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\DataMapper\bin\Debug\EntityFramework.xml
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\DataMapper\bin\Debug\EntityFramework.SqlServer.xml
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\DataMapper\obj\Debug\DataMapper.csproj.AssemblyReference.cache
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\DataMapper\obj\Debug\DataMapper.csproj.CoreCompileInputs.cache
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\DataMapper\obj\Debug\DataMapper.csproj.CopyComplete
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\DataMapper\obj\Debug\DataMapper.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 6\1. DemoLayering\DataMapper\obj\Debug\DataMapper.pdb
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\DataMapper\bin\Debug\DataMapper.dll
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\DataMapper\bin\Debug\DataMapper.pdb
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\DataMapper\bin\Debug\DomainModel.dll
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\DataMapper\bin\Debug\EntityFramework.dll
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\DataMapper\bin\Debug\EntityFramework.SqlServer.dll
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\DataMapper\bin\Debug\DomainModel.pdb
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\DataMapper\bin\Debug\DomainModel.dll.config
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\DataMapper\bin\Debug\EntityFramework.xml
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\DataMapper\bin\Debug\EntityFramework.SqlServer.xml
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\DataMapper\obj\Debug\DataMapper.csproj.AssemblyReference.cache
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\DataMapper\obj\Debug\DataMapper.csproj.CoreCompileInputs.cache
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\DataMapper\obj\Debug\DataMapper.csproj.CopyComplete
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\DataMapper\obj\Debug\DataMapper.dll
+D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 6\1. DemoLayering\DataMapper\obj\Debug\DataMapper.pdb
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\DataMapper\bin\Debug\DataMapper.dll
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\DataMapper\bin\Debug\DataMapper.pdb
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\DataMapper\bin\Debug\DomainModel.dll
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\DataMapper\bin\Debug\EntityFramework.dll
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\DataMapper\bin\Debug\EntityFramework.SqlServer.dll
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\DataMapper\bin\Debug\DomainModel.pdb
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\DataMapper\bin\Debug\DomainModel.dll.config
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\DataMapper\bin\Debug\EntityFramework.xml
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\DataMapper\bin\Debug\EntityFramework.SqlServer.xml
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\DataMapper\obj\Debug\DataMapper.csproj.AssemblyReference.cache
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\DataMapper\obj\Debug\DataMapper.csproj.CoreCompileInputs.cache
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\DataMapper\obj\Debug\DataMapper.csproj.CopyComplete
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\DataMapper\obj\Debug\DataMapper.dll
+A:\UNITBV\ASSE 2023\Laborator 6\1. DemoLayering\DataMapper\obj\Debug\DataMapper.pdb

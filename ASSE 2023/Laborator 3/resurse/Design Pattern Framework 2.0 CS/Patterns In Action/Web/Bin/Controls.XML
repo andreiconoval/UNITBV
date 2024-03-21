@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Controls</name>
+    </assembly>
+    <members>
+        <member name="T:DoFactory.Framework.Controls.MenuComposite">
+            <summary>
+            Menu control. Renders HTML menu controls including selected menu items,
+            menu item indentation, as well as the proper HTML and CSS (cascading 
+            style sheet) tags.
+            
+            GoF Design patterns: Composite.
+            EnterPrise Design Pattern: Transform View.
+            <remarks>
+            The Composite Design Pattern is a self-referencing data structure which 
+            in this case is a menu tree hierarchy of self-referencing menu items. 
+            
+            The Transform View processes data elements and transforms these into HTML.  
+            Usually this applies to domain specific data (business objects), but it is 
+            valid also for menu items. In fact, all databound Web Controls in ASP.NET 
+            are pure TransForm View Design Pattern implementations.
+            </remarks>
+            </summary>
+        </member>
+        <member name="P:DoFactory.Framework.Controls.MenuComposite.SelectedItem">
+            <summary>
+            Gets and sets the selected menu item.
+            </summary>
+        </member>
+        <member name="P:DoFactory.Framework.Controls.MenuComposite.MenuItems">
+            <summary>
+            Gets and sets the entire menu tree using the ASP.NET Viewstate.
+            </summary>
+        </member>
+        <member name="M:DoFactory.Framework.Controls.MenuComposite.RenderContents(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            Renders the entire menu structure.
+            </summary>
+            <param name="output">The HTML output stream</param>
+        </member>
+        <member name="M:DoFactory.Framework.Controls.MenuComposite.RecursiveRender(System.Web.UI.HtmlTextWriter,DoFactory.Framework.Controls.MenuCompositeItem,System.Int32)">
+            <summary>
+            Recursive function that renders a menu item at the correct 
+            indentation level.  This is a private helper function.
+            </summary>
+            <param name="output">The HTML output stream.</param>
+            <param name="item">Menu item.</param>
+            <param name="depth">Indentation depth.</param>
+        </member>
+        <member name="T:DoFactory.Framework.Controls.MenuCompositeItem">
+            <summary>
+            A menu item. This is a node in a tree of menu items. Menu items
+            can have children themselves.
+            
+            GoF Design Pattern: Composite.
+            </summary>
+        </member>
+        <member name="M:DoFactory.Framework.Controls.MenuCompositeItem.#ctor(System.String,System.String)">
+            <summary>
+            Constructor of menu item.
+            </summary>
+            <param name="item">Menu item display name.</param>
+            <param name="link">Menu item link</param>
+        </member>
+        <member name="P:DoFactory.Framework.Controls.MenuCompositeItem.Item">
+            <summary>
+            Gets and set menu item display name.
+            </summary>
+        </member>
+        <member name="P:DoFactory.Framework.Controls.MenuCompositeItem.Link">
+            <summary>
+            Gets and sets menu item link.
+            </summary>
+        </member>
+        <member name="P:DoFactory.Framework.Controls.MenuCompositeItem.Children">
+            <summary>
+            Gets and set list of child menu items.
+            Composite Design Pattern. It is trought the Children property 
+            that an item can reference an entire list of the same objects. 
+            </summary>
+        </member>
+    </members>
+</doc>

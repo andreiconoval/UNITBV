@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.GangOfFour.Template.RealWorld.exe
+bin\Debug\DoFactory.GangOfFour.Template.RealWorld.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.GangOfFour.Template.RealWorld.exe
+obj\Debug\DoFactory.GangOfFour.Template.RealWorld.pdb

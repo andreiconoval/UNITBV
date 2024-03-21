@@ -1,0 +1,898 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DataObjects</name>
+    </assembly>
+    <members>
+        <member name="T:DoFactory.DataLayer.DataObjects.Access.AccessCustomerDao">
+            <summary>
+            Microsoft Access specific data access object that handles data access
+            of customers.
+            </summary>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Access.AccessCustomerDao.GetCustomers">
+            <summary>
+            Gets a list of all customers.
+            </summary>
+            <returns>Customer list.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Access.AccessCustomerDao.GetCustomers(System.String)">
+            <summary>
+            Gets a sorted list of all customers.
+            </summary>
+            <param name="sortExpression">Sort order.</param>
+            <returns>Sorted list of customers.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Access.AccessCustomerDao.GetCustomer(System.Int32)">
+            <summary>
+            Gets a customer.
+            </summary>
+            <param name="customerId">Unique customer identifier.</param>
+            <returns>Customer.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Access.AccessCustomerDao.GetCustomerByOrder(DoFactory.BusinessLayer.BusinessObjects.Order)">
+            <summary>
+            Gets customer given an order.
+            </summary>
+            <param name="order">Order.</param>
+            <returns>Customer.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Access.AccessCustomerDao.InsertCustomer(DoFactory.BusinessLayer.BusinessObjects.Customer)">
+            <summary>
+            Inserts a new customer. 
+            </summary>
+            <remarks>
+            Following insert, customer object will contain the new identifier.
+            </remarks>
+            <param name="customer">Customer.</param>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Access.AccessCustomerDao.UpdateCustomer(DoFactory.BusinessLayer.BusinessObjects.Customer)">
+            <summary>
+            Updates a customer.
+            </summary>
+            <param name="customer">Customer.</param>
+            <returns>Number of customer records updated.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Access.AccessCustomerDao.DeleteCustomer(DoFactory.BusinessLayer.BusinessObjects.Customer)">
+            <summary>
+            Deletes a customer.
+            </summary>
+            <param name="customer">Customer.</param>
+            <returns>Number of customer records deleted.</returns>
+        </member>
+        <member name="T:DoFactory.DataLayer.DataObjects.Access.AccessDaoFactory">
+            <summary>
+            Microsoft Access specific factory that creates Microsoft Access 
+            specific data access objects.
+            
+            GoF Design Patterns: Factory.
+            </summary>
+        </member>
+        <member name="P:DoFactory.DataLayer.DataObjects.Access.AccessDaoFactory.CustomerDao">
+            <summary>
+            Gets a Microsoft Access specific customer data access object.
+            </summary>
+        </member>
+        <member name="P:DoFactory.DataLayer.DataObjects.Access.AccessDaoFactory.OrderDao">
+            <summary>
+            Gets a Microsoft Access specific order data access object.
+            </summary>
+        </member>
+        <member name="P:DoFactory.DataLayer.DataObjects.Access.AccessDaoFactory.ProductDao">
+            <summary>
+            Gets a Microsoft Access specific product data access object.
+            </summary>
+        </member>
+        <member name="T:DoFactory.DataLayer.DataObjects.Access.AccessOrderDao">
+            <summary>
+            Microsoft Access specific data access object that handles data access
+            of customer related orders and order details.
+            </summary>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Access.AccessOrderDao.GetOrderStatistics(System.Collections.Generic.IList{DoFactory.BusinessLayer.BusinessObjects.Customer})">
+            <summary>
+            Gets customers with order statistics in given sort order.
+            </summary>
+            <param name="customers">Customer list.</param>
+            <returns>Sorted list of customers with order statistics.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Access.AccessOrderDao.GetOrderStatistics(System.Collections.Generic.IList{DoFactory.BusinessLayer.BusinessObjects.Customer},System.String)">
+            <summary>
+            Gets a list of customers with order summary statistics.
+            </summary>
+            <param name="customers">Customer list.</param>
+            <param name="sortExpression">Sort order.</param>
+            <returns>Customer list with order summary statistics.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Access.AccessOrderDao.GetOrders(DoFactory.BusinessLayer.BusinessObjects.Customer)">
+            <summary>
+            Gets all orders for a customer.
+            </summary>
+            <param name="customer">Customer.</param>
+            <returns>Order list.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Access.AccessOrderDao.GetOrdersByDate(System.DateTime,System.DateTime)">
+            <summary>
+            Gets a list of orders placed within a date range.
+            </summary>
+            <param name="dateFrom">Date range begin date.</param>
+            <param name="dateThru">Date range end date.</param>
+            <returns>List of orders.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Access.AccessOrderDao.GetOrderDetails(DoFactory.BusinessLayer.BusinessObjects.Order)">
+            <summary>
+            Gets a list of order details for a given order.
+            </summary>
+            <param name="order">Unique order identifier.</param>
+            <returns>List of order details.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Access.AccessOrderDao.GetOrderList(System.String)">
+            <summary>
+            Gets a list of orders. Private helper method.
+            </summary>
+            <param name="sql">Sql statement.</param>
+            <returns>Order list.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Access.AccessOrderDao.GetOrder(System.Int32)">
+            <summary>
+            Gets an order.
+            </summary>
+            <param name="orderId">Unique order identifier.</param>
+            <returns>Order.</returns>
+        </member>
+        <member name="T:DoFactory.DataLayer.DataObjects.Access.AccessProductDao">
+            <summary>
+            Microsoft Access specific data access object that handles data access
+            of categories and products.
+            </summary>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Access.AccessProductDao.GetCategories">
+            <summary>
+            Gets a list of categories.
+            </summary>
+            <returns>Category list.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Access.AccessProductDao.GetProductsByCategory(System.Int32,System.String)">
+            <summary>
+            Gets a list of products for a given category.
+            </summary>
+            <param name="categoryId">Unique category identifier.</param>
+            <param name="sortExpression">Sort order.</param>
+            <returns>Sorted product list.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Access.AccessProductDao.SearchProducts(System.String,System.Nullable{System.Double},System.Nullable{System.Double},System.String)">
+            <summary>
+            Performs a search for products given several criteria.
+            </summary>
+            <param name="productName">Product name criterium.</param>
+            <param name="priceFrom">Low end of price range.</param>
+            <param name="priceThru">High end of price range.</param>
+            <param name="sortExpression">Sort order.</param>
+            <returns>Sorted product list.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Access.AccessProductDao.GetProductList(System.String)">
+            <summary>
+            Gets a product list. A private helper method.
+            </summary>
+            <param name="sql">Sql statement</param>
+            <returns>Product list.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Access.AccessProductDao.GetProduct(System.Int32)">
+            <summary>
+            Gets a product.
+            </summary>
+            <param name="id">Unique product identifier.</param>
+            <returns>Product.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Access.AccessProductDao.GetCategoryByProduct(System.Int32)">
+            <summary>
+            Gets a category for a given product.
+            </summary>
+            <param name="productId">Unique product identifier.</param>
+            <returns>Category.</returns>
+        </member>
+        <member name="T:DoFactory.DataLayer.DataObjects.DaoFactories">
+            <summary>
+            Factory of factories. This class is a factory class that creates
+            data-base specific factories which in turn create data acces objects.
+            
+            GoF Design Patterns: Factory.
+            </summary>
+            <remarks>
+            This is the abstract factory design pattern applied in a hierarchy
+            in which there is a factory of factories.
+            </remarks>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.DaoFactories.GetFactory(System.String)">
+            <summary>
+            Gets a provider specific (i.e. database specific) factory 
+            
+            GoF Design Pattern: Factory
+            </summary>
+            <param name="dataProvider">Database provider.</param>
+            <returns>Data access object factory.</returns>
+        </member>
+        <member name="T:DoFactory.DataLayer.DataObjects.DaoFactory">
+            <summary>
+            Abstract factory class that creates data access objects.
+            
+            GoF Design Pattern: Factory.
+            </summary>
+        </member>
+        <member name="P:DoFactory.DataLayer.DataObjects.DaoFactory.CustomerDao">
+            <summary>
+            Gets a customer data access object.
+            </summary>
+        </member>
+        <member name="P:DoFactory.DataLayer.DataObjects.DaoFactory.OrderDao">
+            <summary>
+            Gets an order data access object.
+            </summary>
+        </member>
+        <member name="P:DoFactory.DataLayer.DataObjects.DaoFactory.ProductDao">
+            <summary>
+            Gets a product data access object.
+            </summary>
+        </member>
+        <member name="T:DoFactory.DataLayer.DataObjects.DataAccess">
+            <summary>
+            This class shields the client from the details of database specific 
+            data-access objects. It returns the appropriate data-access objects 
+            according to the configuration in web.config.
+            
+            GoF Design Patterns: Factory, Singleton, Proxy.
+            </summary>
+            <remarks>
+            This class makes extensive use of the Factory pattern in determining which 
+            database specific DAOs (Data Access Objects) to return.
+            
+            This class is like a Singleton -- it is a static class (Shared in VB) and 
+            therefore only one 'instance' ever will exist.
+            
+            This class is a Proxy in that it 'stands in' for the actual Data Access Object Factory.
+            </remarks>
+        </member>
+        <member name="P:DoFactory.DataLayer.DataObjects.DataAccess.CustomerDao">
+            <summary>
+            Gets a provider specific customer data access object.
+            </summary>
+        </member>
+        <member name="P:DoFactory.DataLayer.DataObjects.DataAccess.OrderDao">
+            <summary>
+            Gets a provider specific order data access object.
+            </summary>
+        </member>
+        <member name="P:DoFactory.DataLayer.DataObjects.DataAccess.ProductDao">
+            <summary>
+            Gets a provider specific product data access object.
+            </summary>
+        </member>
+        <member name="T:DoFactory.DataLayer.DataObjects.Db">
+            <summary>
+            Class that manages all lower level ADO.NET data base access.
+            
+            GoF Design Patterns: Singleton, Factory, Proxy.
+            </summary>
+            <remarks>
+            This class is a 'swiss army knife' of data access. It handles all the 
+            database access details and shields its complexity from its clients.
+            
+            The Factory Design pattern is used to create database specific instances
+            of Connection objects, Command objects, etc.
+            
+            This class is like a Singleton -- it is a static class (Shared in VB) and 
+            therefore only one 'instance' ever will exist.
+            
+            This class is a Proxy in that it 'stands in' for the actual DbProviderFactory.
+            </remarks>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Db.Update(System.String)">
+            <summary>
+            Executes Update statements in the database.
+            </summary>
+            <param name="sql">Sql statement.</param>
+            <returns>Number of rows affected.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Db.Insert(System.String,System.Boolean)">
+            <summary>
+            Executes Insert statements in the database. Optionally returns new identifier.
+            </summary>
+            <param name="sql">Sql statement.</param>
+            <param name="getId">Value indicating whether newly generated identity is returned.</param>
+            <returns>Newly generated identity value (autonumber value).</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Db.Insert(System.String)">
+            <summary>
+            Executes Insert statements in the database.
+            </summary>
+            <param name="sql">Sql statement.</param>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Db.GetDataSet(System.String)">
+            <summary>
+            Populates a DataSet according to a Sql statement.
+            </summary>
+            <param name="sql">Sql statement.</param>
+            <returns>Populated DataSet.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Db.GetDataTable(System.String)">
+            <summary>
+            Populates a DataTable according to a Sql statement.
+            </summary>
+            <param name="sql">Sql statement.</param>
+            <returns>Populated DataTable.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Db.GetDataRow(System.String)">
+            <summary>
+            Populates a DataRow according to a Sql statement.
+            </summary>
+            <param name="sql">Sql statement.</param>
+            <returns>Populated DataRow.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Db.GetScalar(System.String)">
+            <summary>
+            Executes a Sql statement and returns a scalar value.
+            </summary>
+            <param name="sql">Sql statement.</param>
+            <returns>Scalar value.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Db.Escape(System.String)">
+            <summary>
+            Escapes an input string for database processing, that is, 
+            surround it with quotes and change any quote in the string to 
+            two adjacent quotes (i.e. escape it). 
+            If input string is null or empty a NULL string is returned.
+            </summary>
+            <param name="s">Input string.</param>
+            <returns>Escaped output string.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Db.Escape(System.String,System.Int32)">
+            <summary>
+            Escapes an input string for database processing, that is, 
+            surround it with quotes and change any quote in the string to 
+            two adjacent quotes (i.e. escape it). 
+            Also trims string at a given maximum length.
+            If input string is null or empty a NULL string is returned.
+            </summary>
+            <param name="s">Input string.</param>
+            <param name="maxLength">Maximum length of output string.</param>
+            <returns>Escaped output string.</returns>
+        </member>
+        <member name="T:DoFactory.DataLayer.DataObjects.ICustomerDao">
+            <summary>
+            Defines methods to access and maintain customer data.
+            This is a database-independent interface. The implementations will 
+            be database specific.
+            </summary>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.ICustomerDao.GetCustomers">
+            <summary>
+            Gets a list of all customers.
+            </summary>
+            <returns>List of customers.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.ICustomerDao.GetCustomers(System.String)">
+            <summary>
+            Gets a sorted list of all customers.
+            </summary>
+            <param name="sortExpression">Sort order.</param>
+            <returns>Sorted list of customers.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.ICustomerDao.GetCustomer(System.Int32)">
+            <summary>
+            Gets a customer.
+            </summary>
+            <param name="customerId">Unique customer identifier.</param>
+            <returns>Customer.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.ICustomerDao.GetCustomerByOrder(DoFactory.BusinessLayer.BusinessObjects.Order)">
+            <summary>
+            Gets customer given an order.
+            </summary>
+            <param name="order">Order.</param>
+            <returns>Customer.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.ICustomerDao.InsertCustomer(DoFactory.BusinessLayer.BusinessObjects.Customer)">
+            <summary>
+            Inserts a new customer. 
+            </summary>
+            <remarks>
+            Following insert, customer object will contain the new identifier.
+            </remarks>
+            <param name="customer">Customer.</param>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.ICustomerDao.UpdateCustomer(DoFactory.BusinessLayer.BusinessObjects.Customer)">
+            <summary>
+            Updates a customer.
+            </summary>
+            <param name="customer">Customer.</param>
+            <returns>Number of customer records updated.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.ICustomerDao.DeleteCustomer(DoFactory.BusinessLayer.BusinessObjects.Customer)">
+            <summary>
+            Deletes a customer
+            </summary>
+            <param name="customer">Customer.</param>
+            <returns>Number of customer records deleted.</returns>
+        </member>
+        <member name="T:DoFactory.DataLayer.DataObjects.IOrderDao">
+            <summary>
+            Defines methods to access orders and order details.
+            This is a database-independent interface. The implementations will 
+            be database specific.
+            </summary>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.IOrderDao.GetOrderStatistics(System.Collections.Generic.IList{DoFactory.BusinessLayer.BusinessObjects.Customer},System.String)">
+            <summary>
+            Gets customers with order statistics in given sort order.
+            </summary>
+            <param name="customers">Customer list.</param>
+            <param name="sortExpression">Sort order.</param>
+            <returns>Sorted list of customers with order statistics.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.IOrderDao.GetOrderStatistics(System.Collections.Generic.IList{DoFactory.BusinessLayer.BusinessObjects.Customer})">
+            <summary>
+            Gets a list of customers with order summary statistics.
+            </summary>
+            <param name="customers">Customer list.</param>
+            <returns>Customer list with order summary statistics.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.IOrderDao.GetOrders(DoFactory.BusinessLayer.BusinessObjects.Customer)">
+            <summary>
+            Gets all orders for a customer.
+            </summary>
+            <param name="customer">Customer.</param>
+            <returns>List of orders.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.IOrderDao.GetOrdersByDate(System.DateTime,System.DateTime)">
+            <summary>
+            Gets a list of orders placed within a date range.
+            </summary>
+            <param name="dateFrom">Date range begin date.</param>
+            <param name="dateThru">Date range end date.</param>
+            <returns>List of orders.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.IOrderDao.GetOrderDetails(DoFactory.BusinessLayer.BusinessObjects.Order)">
+            <summary>
+            Gets a list of order details for a given order.
+            </summary>
+            <param name="order">Unique order identifier.</param>
+            <returns>List of order details.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.IOrderDao.GetOrder(System.Int32)">
+            <summary>
+            Gets an order.
+            </summary>
+            <param name="orderId">Unique order identifier.</param>
+            <returns>Order.</returns>
+        </member>
+        <member name="T:DoFactory.DataLayer.DataObjects.IProductDao">
+            <summary>
+            Defines methods to access categories and products.
+            This is a database-independent interface. The implementations will 
+            be database specific.
+            </summary>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.IProductDao.GetCategories">
+            <summary>
+            Gets a list of product categories.
+            </summary>
+            <returns>List of product categories.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.IProductDao.GetProductsByCategory(System.Int32,System.String)">
+            <summary>
+            Gets a list of products for a given category.
+            </summary>
+            <param name="categoryId">Unique category identifier.</param>
+            <param name="sortExpression">Sort order.</param>
+            <returns>Sorted list of products.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.IProductDao.SearchProducts(System.String,System.Nullable{System.Double},System.Nullable{System.Double},System.String)">
+            <summary>
+            Performs a search for products given several criteria.
+            </summary>
+            <param name="productName">Product name criterium.</param>
+            <param name="priceFrom">Low end of price range.</param>
+            <param name="priceThru">High end of price range.</param>
+            <param name="sortExpression">Sort order.</param>
+            <returns>Sorted list of products.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.IProductDao.GetProduct(System.Int32)">
+            <summary>
+            Gets a product.
+            </summary>
+            <param name="productId">Unique product identifier.</param>
+            <returns>Product.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.IProductDao.GetCategoryByProduct(System.Int32)">
+            <summary>
+            Gets a product category for a given product.
+            </summary>
+            <param name="productId">Unique product identifier.</param>
+            <returns>Product category.</returns>
+        </member>
+        <member name="T:DoFactory.DataLayer.DataObjects.Oracle.OracleCustomerDao">
+             <summary>
+             Oracle specific data access object that handles data access
+             of customers. The details are stubbed out (in a crude way) but should be 
+             relatively easy to implement as they are similar to MS Access and 
+             Sql Server Data access objects.
+            
+             Enterprise Design Pattern: Service Stub.
+             </summary>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Oracle.OracleCustomerDao.GetCustomers">
+            <summary>
+            Gets a list of all customers.
+            </summary>
+            <returns>Customer list.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Oracle.OracleCustomerDao.GetCustomers(System.String)">
+            <summary>
+            Gets a sorted list of all customers. Stubbed.
+            </summary>
+            <param name="sortExpression">Sort order.</param>
+            <returns>Sorted list of customers.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Oracle.OracleCustomerDao.GetCustomer(System.Int32)">
+            <summary>
+            Gets a customer. Stubbed.
+            </summary>
+            <param name="customerId">Unique customer identifier.</param>
+            <returns>Customer.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Oracle.OracleCustomerDao.GetCustomerByOrder(DoFactory.BusinessLayer.BusinessObjects.Order)">
+            <summary>
+            Gets customer given an order. Stubbed.
+            </summary>
+            <param name="order">Order.</param>
+            <returns>Customer.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Oracle.OracleCustomerDao.InsertCustomer(DoFactory.BusinessLayer.BusinessObjects.Customer)">
+            <summary>
+            Inserts a new customer. Stubbed.
+            </summary>
+            <remarks>
+            Following insert, customer object will contain the new identifier.
+            </remarks>
+            <param name="customer">Customer.</param>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Oracle.OracleCustomerDao.UpdateCustomer(DoFactory.BusinessLayer.BusinessObjects.Customer)">
+            <summary>
+            Updates a customer. Stubbed.
+            </summary>
+            <param name="customer">Customer.</param>
+            <returns>Number of customer records updated.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Oracle.OracleCustomerDao.DeleteCustomer(DoFactory.BusinessLayer.BusinessObjects.Customer)">
+            <summary>
+            Deletes a customer. Stubbed.
+            </summary>
+            <param name="customer">Customer</param>
+            <returns>Number of customer records deleted.</returns>
+        </member>
+        <member name="T:DoFactory.DataLayer.DataObjects.Oracle.OracleDaoFactory">
+            <summary>
+            Oracle specific factory that creates Oracle specific data access objects.
+            
+            GoF Design Pattern: Factory.
+            </summary>
+        </member>
+        <member name="P:DoFactory.DataLayer.DataObjects.Oracle.OracleDaoFactory.CustomerDao">
+            <summary>
+            Gets an Oracle specific customer data access object.
+            </summary>
+        </member>
+        <member name="P:DoFactory.DataLayer.DataObjects.Oracle.OracleDaoFactory.OrderDao">
+            <summary>
+            Gets an Oracle specific order data access object.
+            </summary>
+        </member>
+        <member name="P:DoFactory.DataLayer.DataObjects.Oracle.OracleDaoFactory.ProductDao">
+            <summary>
+            Gets an Oracle specific product data access object.
+            </summary>
+        </member>
+        <member name="T:DoFactory.DataLayer.DataObjects.Oracle.OracleOrderDao">
+             <summary>
+             Oracle specific data access object that handles data access
+             of customer related orders and order details. The details are stubbed out (in a crude way) but should be 
+             relatively easy to implement as they are similar to MS Access and 
+             Sql Server Data access objects.
+            
+             Enterprise Design Pattern: Service Stub.
+             </summary>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Oracle.OracleOrderDao.GetOrderStatistics(System.Collections.Generic.IList{DoFactory.BusinessLayer.BusinessObjects.Customer})">
+            <summary>
+            Gets customers with order statistics in given sort order. Stubbed.
+            </summary>
+            <param name="customers">Customer list.</param>
+            <returns>Sorted list of customers with order statistics.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Oracle.OracleOrderDao.GetOrderStatistics(System.Collections.Generic.IList{DoFactory.BusinessLayer.BusinessObjects.Customer},System.String)">
+            <summary>
+            Gets a list of customers with order summary statistics. Stubbed.
+            </summary>
+            <param name="customers">Customer list.</param>
+            <param name="sortExpression">Sort order.</param>
+            <returns>Customer list with order summary statistics.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Oracle.OracleOrderDao.GetOrders(DoFactory.BusinessLayer.BusinessObjects.Customer)">
+            <summary>
+            Gets all orders for a customer. Stubbed.
+            </summary>
+            <param name="customer">Customer.</param>
+            <returns>List of orders.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Oracle.OracleOrderDao.GetOrdersByDate(System.DateTime,System.DateTime)">
+            <summary>
+            Gets a list of orders placed within a date range. Stubbed.
+            </summary>
+            <param name="dateFrom">Date range begin date.</param>
+            <param name="dateThru">Date range end date.</param>
+            <returns>List of orders.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Oracle.OracleOrderDao.GetOrderDetails(DoFactory.BusinessLayer.BusinessObjects.Order)">
+            <summary>
+            Gets a list of order details for a given order. Stubbed.
+            </summary>
+            <param name="order">Unique order identifier.</param>
+            <returns>List of order details.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Oracle.OracleOrderDao.GetOrderList(System.String)">
+            <summary>
+            Gets a list of orders. Private helper method. Stubbed.
+            </summary>
+            <param name="sql">Sql statement.</param>
+            <returns>List of orders.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Oracle.OracleOrderDao.GetOrder(System.Int32)">
+            <summary>
+            Gets an order. Stubbed.
+            </summary>
+            <param name="orderId">Unique order identifier.</param>
+            <returns>Order.</returns>
+        </member>
+        <member name="T:DoFactory.DataLayer.DataObjects.Oracle.OracleProductDao">
+             <summary>
+             Oracle specific data access object that handles data access
+             of categories and products. The details are stubbed out (in a crude way) but should be 
+             relatively easy to implement as they are similar to MS Access and 
+             Sql Server Data access objects.
+            
+             Enterprise Design Pattern: Service Stub.
+             </summary>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Oracle.OracleProductDao.GetCategories">
+            <summary>
+            Gets a list of categories. Stubbed.
+            </summary>
+            <returns>Category list.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Oracle.OracleProductDao.GetProductsByCategory(System.Int32,System.String)">
+            <summary>
+            Gets a list of products for a given category. Stubbed.
+            </summary>
+            <param name="categoryId">Unique category identifier.</param>
+            <param name="sortExpression">Sort order.</param>
+            <returns>Sorted product list.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Oracle.OracleProductDao.SearchProducts(System.String,System.Nullable{System.Double},System.Nullable{System.Double},System.String)">
+            <summary>
+            Performs a search for products given several criteria. Stubbed.
+            </summary>
+            <param name="productName">Product name criterium.</param>
+            <param name="priceFrom">Low end of price range.</param>
+            <param name="priceThru">High end of price range.</param>
+            <param name="sortExpression">Sort order.</param>
+            <returns>Sorted product list.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Oracle.OracleProductDao.GetProductList(System.String)">
+            <summary>
+            Gets a product list. A private helper method.
+            </summary>
+            <param name="sql">Sql statement</param>
+            <returns>Product list.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Oracle.OracleProductDao.GetProduct(System.Int32)">
+            <summary>
+            Gets a product. Stubbed.
+            </summary>
+            <param name="id">Unique product identifier.</param>
+            <returns>Product.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.Oracle.OracleProductDao.GetCategoryByProduct(System.Int32)">
+            <summary>
+            Gets a category for a given product. Stubbed.
+            </summary>
+            <param name="productId">Unique product identifier.</param>
+            <returns>Category.</returns>
+        </member>
+        <member name="T:DoFactory.DataLayer.DataObjects.SqlServer.SqlServerCustomerDao">
+            <summary>
+            Sql Server specific data access object that handles data access
+            of customers.
+            </summary>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.SqlServer.SqlServerCustomerDao.GetCustomers">
+            <summary>
+            Gets a list of all customers.
+            </summary>
+            <returns>Customer list.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.SqlServer.SqlServerCustomerDao.GetCustomers(System.String)">
+            <summary>
+            Gets a sorted list of all customers.
+            </summary>
+            <param name="sortExpression">Sort order.</param>
+            <returns>Sorted list of customers.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.SqlServer.SqlServerCustomerDao.GetCustomer(System.Int32)">
+            <summary>
+            Gets a customer.
+            </summary>
+            <param name="customerId">Unique customer identifier.</param>
+            <returns>Customer.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.SqlServer.SqlServerCustomerDao.GetCustomerByOrder(DoFactory.BusinessLayer.BusinessObjects.Order)">
+            <summary>
+            Gets customer given an order.
+            </summary>
+            <param name="order">Order.</param>
+            <returns>Customer.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.SqlServer.SqlServerCustomerDao.InsertCustomer(DoFactory.BusinessLayer.BusinessObjects.Customer)">
+            <summary>
+            Inserts a new customer. 
+            </summary>
+            <remarks>
+            Following insert, customer object will contain new identifier.
+            </remarks>
+            <param name="customer">Customer.</param>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.SqlServer.SqlServerCustomerDao.UpdateCustomer(DoFactory.BusinessLayer.BusinessObjects.Customer)">
+            <summary>
+            Updates a customer.
+            </summary>
+            <param name="customer">Customer.</param>
+            <returns>Number of customer records updated.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.SqlServer.SqlServerCustomerDao.DeleteCustomer(DoFactory.BusinessLayer.BusinessObjects.Customer)">
+            <summary>
+            Deletes a customer
+            </summary>
+            <param name="customer">Customer.</param>
+            <returns>Number of customer records deleted.</returns>
+        </member>
+        <member name="T:DoFactory.DataLayer.DataObjects.SqlServer.SqlServerDaoFactory">
+            <summary>
+            Sql Server specific factory that creates Sql Server specific data access objects.
+            
+            GoF Design Pattern: Factory.
+            </summary>
+        </member>
+        <member name="P:DoFactory.DataLayer.DataObjects.SqlServer.SqlServerDaoFactory.CustomerDao">
+            <summary>
+            Gets a Sql server specific customer data access object.
+            </summary>
+        </member>
+        <member name="P:DoFactory.DataLayer.DataObjects.SqlServer.SqlServerDaoFactory.OrderDao">
+            <summary>
+            Gets a Sql server specific order data access object.
+            </summary>
+        </member>
+        <member name="P:DoFactory.DataLayer.DataObjects.SqlServer.SqlServerDaoFactory.ProductDao">
+            <summary>
+            Gets a Sql server specific product data access object.
+            </summary>
+        </member>
+        <member name="T:DoFactory.DataLayer.DataObjects.SqlServer.SqlServerOrderDao">
+            <summary>
+            Sql Server specific data access object that handles data access
+            of customer related orders and order details.
+            </summary>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.SqlServer.SqlServerOrderDao.GetOrderStatistics(System.Collections.Generic.IList{DoFactory.BusinessLayer.BusinessObjects.Customer})">
+            <summary>
+            Gets customers with order statistics in given sort order.
+            </summary>
+            <param name="customers">Customer list.</param>
+            <returns>Sorted list of customers with order statistics.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.SqlServer.SqlServerOrderDao.GetOrderStatistics(System.Collections.Generic.IList{DoFactory.BusinessLayer.BusinessObjects.Customer},System.String)">
+            <summary>
+            Gets a list of customers with order summary statistics.
+            </summary>
+            <param name="customers">Customer list.</param>
+            <param name="sortExpression">Sort order.</param>
+            <returns>Customer list with order summary statistics.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.SqlServer.SqlServerOrderDao.GetOrders(DoFactory.BusinessLayer.BusinessObjects.Customer)">
+            <summary>
+            Gets all orders for a customer.
+            </summary>
+            <param name="customer">Customer.</param>
+            <returns>List of orders.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.SqlServer.SqlServerOrderDao.GetOrdersByDate(System.DateTime,System.DateTime)">
+            <summary>
+            Gets a list of orders placed within a date range.
+            </summary>
+            <param name="dateFrom">Date range begin date.</param>
+            <param name="dateThru">Date range end date.</param>
+            <returns>List of orders.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.SqlServer.SqlServerOrderDao.GetOrderDetails(DoFactory.BusinessLayer.BusinessObjects.Order)">
+            <summary>
+            Gets a list of order details for a given order.
+            </summary>
+            <param name="order">Unique order identifier.</param>
+            <returns>List of order details.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.SqlServer.SqlServerOrderDao.GetOrderList(System.String)">
+            <summary>
+            Gets a list of orders. Private helper method.
+            </summary>
+            <param name="sql">Sql statement.</param>
+            <returns>List of orders.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.SqlServer.SqlServerOrderDao.GetOrder(System.Int32)">
+            <summary>
+            Gets an order.
+            </summary>
+            <param name="orderId">Unique order identifier.</param>
+            <returns>Order.</returns>
+        </member>
+        <member name="T:DoFactory.DataLayer.DataObjects.SqlServer.SqlServerProductDao">
+            <summary>
+            Sql Server specific data access object that handles data access
+            of categories and products.
+            </summary>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.SqlServer.SqlServerProductDao.GetCategories">
+            <summary>
+            Gets a list of categories.
+            </summary>
+            <returns>Category list.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.SqlServer.SqlServerProductDao.GetProductsByCategory(System.Int32,System.String)">
+            <summary>
+            Gets a list of products for a given category.
+            </summary>
+            <param name="categoryId">Unique category identifier.</param>
+            <param name="sortExpression">Sort order.</param>
+            <returns>Sorted list of products.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.SqlServer.SqlServerProductDao.SearchProducts(System.String,System.Nullable{System.Double},System.Nullable{System.Double},System.String)">
+            <summary>
+            Performs a search for products given several criteria.
+            </summary>
+            <param name="productName">Product name criterium.</param>
+            <param name="priceFrom">Low end of price range.</param>
+            <param name="priceThru">High end of price range.</param>
+            <param name="sortExpression">Sort order.</param>
+            <returns>Sorted list of products.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.SqlServer.SqlServerProductDao.GetProductList(System.String)">
+            <summary>
+            Gets a product list. A private helper method.
+            </summary>
+            <param name="sql">Sql statement.</param>
+            <returns>List of products.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.SqlServer.SqlServerProductDao.GetProduct(System.Int32)">
+            <summary>
+            Gets a product.
+            </summary>
+            <param name="id">Unique product identifier.</param>
+            <returns>Product.</returns>
+        </member>
+        <member name="M:DoFactory.DataLayer.DataObjects.SqlServer.SqlServerProductDao.GetCategoryByProduct(System.Int32)">
+            <summary>
+            Gets a category for a given product.
+            </summary>
+            <param name="productId">Unique product identifier.</param>
+            <returns>Category.</returns>
+        </member>
+    </members>
+</doc>

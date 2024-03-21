@@ -1,0 +1,5 @@
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Factory.PizzaShop\bin\Debug\DoFactory.HeadFirst.Factory.PizzaShop.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Factory.PizzaShop\bin\Debug\DoFactory.HeadFirst.Factory.PizzaShop.pdb
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Factory.PizzaShop\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Factory.PizzaShop\obj\Debug\DoFactory.HeadFirst.Factory.PizzaShop.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Factory.PizzaShop\obj\Debug\DoFactory.HeadFirst.Factory.PizzaShop.pdb

@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.HeadFirst.Proxy.DotNetProxy.exe
+bin\Debug\DoFactory.HeadFirst.Proxy.DotNetProxy.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.HeadFirst.Proxy.DotNetProxy.exe
+obj\Debug\DoFactory.HeadFirst.Proxy.DotNetProxy.pdb

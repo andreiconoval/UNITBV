@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.GangOfFour.Template.NETOptimized.exe
+bin\Debug\DoFactory.GangOfFour.Template.NETOptimized.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.GangOfFour.Template.NETOptimized.exe
+obj\Debug\DoFactory.GangOfFour.Template.NETOptimized.pdb

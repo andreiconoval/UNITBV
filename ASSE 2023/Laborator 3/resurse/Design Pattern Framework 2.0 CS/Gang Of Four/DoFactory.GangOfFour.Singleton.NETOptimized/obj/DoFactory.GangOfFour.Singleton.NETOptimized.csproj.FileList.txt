@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.GangOfFour.Singleton.NETOptimized.exe
+bin\Debug\DoFactory.GangOfFour.Singleton.NETOptimized.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.GangOfFour.Singleton.NETOptimized.exe
+obj\Debug\DoFactory.GangOfFour.Singleton.NETOptimized.pdb

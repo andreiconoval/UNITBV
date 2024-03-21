@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.HeadFirst.Adapter.Duck.exe
+bin\Debug\DoFactory.HeadFirst.Adapter.Duck.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.HeadFirst.Adapter.Duck.exe
+obj\Debug\DoFactory.HeadFirst.Adapter.Duck.pdb

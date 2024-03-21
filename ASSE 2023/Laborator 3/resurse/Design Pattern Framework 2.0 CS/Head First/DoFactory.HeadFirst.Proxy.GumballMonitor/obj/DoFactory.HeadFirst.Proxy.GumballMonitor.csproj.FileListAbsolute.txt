@@ -1,0 +1,5 @@
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Proxy.GumballMonitor\bin\Debug\DoFactory.HeadFirst.Proxy.GumballMonitor.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Proxy.GumballMonitor\bin\Debug\DoFactory.HeadFirst.Proxy.GumballMonitor.pdb
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Proxy.GumballMonitor\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Proxy.GumballMonitor\obj\Debug\DoFactory.HeadFirst.Proxy.GumballMonitor.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Proxy.GumballMonitor\obj\Debug\DoFactory.HeadFirst.Proxy.GumballMonitor.pdb

@@ -1,0 +1,77 @@
+D:\Temp\delme_laborator\DemoCoverageNunit\TestNUnit\obj\Debug\TestNUnit.csprojResolveAssemblyReference.cache
+D:\Temp\delme_laborator\DemoCoverageNunit\TestNUnit\bin\Debug\TestNUnit.dll
+D:\Temp\delme_laborator\DemoCoverageNunit\TestNUnit\bin\Debug\TestNUnit.pdb
+D:\Temp\delme_laborator\DemoCoverageNunit\TestNUnit\bin\Debug\MyUtils.dll
+D:\Temp\delme_laborator\DemoCoverageNunit\TestNUnit\bin\Debug\nunit.framework.dll
+D:\Temp\delme_laborator\DemoCoverageNunit\TestNUnit\bin\Debug\MyUtils.pdb
+D:\Temp\delme_laborator\DemoCoverageNunit\TestNUnit\bin\Debug\nunit.framework.xml
+D:\Temp\delme_laborator\DemoCoverageNunit\TestNUnit\obj\Debug\TestNUnit.dll
+D:\Temp\delme_laborator\DemoCoverageNunit\TestNUnit\obj\Debug\TestNUnit.pdb
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\obj\Debug\TestNUnit.csprojAssemblyReference.cache
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\obj\Debug\TestNUnit.csproj.CoreCompileInputs.cache
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\TestNUnit.dll
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\TestNUnit.pdb
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\MyUtils.dll
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\nunit.framework.dll
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\MyUtils.pdb
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\nunit.framework.pdb
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\nunit.framework.xml
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\obj\Debug\TestNUnit.csproj.CopyComplete
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\obj\Debug\TestNUnit.dll
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\obj\Debug\TestNUnit.pdb
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\NUnit3.TestAdapter.dll
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\NUnit3.TestAdapter.pdb
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\nunit.engine.dll
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\nunit.engine.api.dll
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\Mono.Cecil.dll
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\NUnit3.TestAdapter.dll
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\NUnit3.TestAdapter.pdb
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\nunit.engine.dll
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\nunit.engine.api.dll
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\nunit.engine.core.dll
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\TestNUnit.dll
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\TestNUnit.pdb
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\MyUtils.dll
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\nunit.framework.dll
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\MyUtils.pdb
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\nunit.framework.pdb
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\nunit.framework.xml
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\obj\Debug\TestNUnit.csprojAssemblyReference.cache
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\obj\Debug\TestNUnit.csproj.CoreCompileInputs.cache
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\obj\Debug\TestNUnit.csproj.CopyComplete
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\obj\Debug\TestNUnit.dll
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\obj\Debug\TestNUnit.pdb
+d:\work\school\cursuri\ASSE\2021-2022\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\NUnit3.TestAdapter.dll
+d:\work\school\cursuri\ASSE\2021-2022\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\NUnit3.TestAdapter.pdb
+d:\work\school\cursuri\ASSE\2021-2022\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\nunit.engine.dll
+d:\work\school\cursuri\ASSE\2021-2022\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\nunit.engine.api.dll
+d:\work\school\cursuri\ASSE\2021-2022\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\nunit.engine.core.dll
+d:\work\school\cursuri\ASSE\2021-2022\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\TestNUnit.dll
+d:\work\school\cursuri\ASSE\2021-2022\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\TestNUnit.pdb
+d:\work\school\cursuri\ASSE\2021-2022\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\MyUtils.dll
+d:\work\school\cursuri\ASSE\2021-2022\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\nunit.framework.dll
+d:\work\school\cursuri\ASSE\2021-2022\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\MyUtils.pdb
+d:\work\school\cursuri\ASSE\2021-2022\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\nunit.framework.pdb
+d:\work\school\cursuri\ASSE\2021-2022\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\nunit.framework.xml
+d:\work\school\cursuri\ASSE\2021-2022\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\obj\Debug\TestNUnit.csproj.AssemblyReference.cache
+d:\work\school\cursuri\ASSE\2021-2022\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\obj\Debug\TestNUnit.csproj.CoreCompileInputs.cache
+d:\work\school\cursuri\ASSE\2021-2022\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\obj\Debug\TestNUnit.csproj.CopyComplete
+d:\work\school\cursuri\ASSE\2021-2022\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\obj\Debug\TestNUnit.dll
+d:\work\school\cursuri\ASSE\2021-2022\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\obj\Debug\TestNUnit.pdb
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\NUnit3.TestAdapter.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\NUnit3.TestAdapter.pdb
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\nunit.engine.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\nunit.engine.api.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\nunit.engine.core.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\testcentric.engine.metadata.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\TestNUnit.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\TestNUnit.pdb
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\MyUtils.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\nunit.framework.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\MyUtils.pdb
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\bin\Debug\nunit.framework.xml
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\obj\Debug\TestNUnit.csproj.AssemblyReference.cache
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\obj\Debug\TestNUnit.csproj.CoreCompileInputs.cache
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\obj\Debug\TestNUnit.csproj.CopyComplete
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\obj\Debug\TestNUnit.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 2\DemoNunitAndCoverage\TestNUnit\obj\Debug\TestNUnit.pdb

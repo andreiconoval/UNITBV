@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!-- saved from url=(0077)http://www.justinrhinesmith.com/blog/2008/05/12/quick-and-easy-log4net-setup/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Quick and easy log4net setup</title>
+  <meta name="description" content="I recently wanted to set up log4net on a project I’ve been working on and found the documentation somewhat lacking when trying to find a quick and easy...">
+
+  <link rel="stylesheet" href="./Quick and easy log4net setup_files/main.css">
+  <link rel="canonical" href="http://justinrhinesmith.com/blog/2008/05/12/quick-and-easy-log4net-setup/">
+  <link rel="alternate" type="application/rss+xml" title="JustinRhinesmith.com" href="http://justinrhinesmith.com/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="http://www.justinrhinesmith.com/">JustinRhinesmith.com</a>
+
+    <nav class="site-nav">
+      <a href="http://www.justinrhinesmith.com/blog/2008/05/12/quick-and-easy-log4net-setup/#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"></path>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"></path>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"></path>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="http://www.justinrhinesmith.com/blog/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope="" itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Quick and easy log4net setup</h1>
+    <p class="post-meta"><time datetime="2008-05-12T23:04:00+00:00" itemprop="datePublished">May 12, 2008</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>I recently wanted to set up log4net on a project I’ve been working on and found the documentation somewhat lacking when trying to find a quick and easy setup guide.&nbsp; So, once I had everything set up and working, I resolved to create one myself.</p>
+<p>So, in less time than it takes to get a pizza delivered, here is how to quickly get log4net setup on your project.</p>
+<p>What you’ll need:</p>
+<ul>
+<li>The log4net dll (you can find the most recent version <a href="http://logging.apache.org/log4net/download.html" onclick="javascript:pageTracker._trackPageview(&#39;/logging.apache.org&#39;);">here</a>) </li>
+<li>A .Net project/solution that you’d like to add logging to (you’re on your own here) </li>
+<li>Access to the Assembly.cs file for said project </li>
+<li>Access to the app.config or web.config file for said project </li>
+<li>A place to store your logging files (I will be using C:\ in this example, but this is one area in which the documentation actually excels)</li>
+</ul>
+<p>Implementation:</p>
+<ol>
+<li>Place the log4net dll somewhere that you can reference it easily.&nbsp; I like to keep a Libraries folder around in most of my projects to hold any 3rd party dlls, but the choice is up to you.</li>
+<li>Add a reference to the dll in your project solution:</li>
+<ul>
+<li><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="173" alt="References" src="./Quick and easy log4net setup_files/references.png" width="229" border="0"><br style="clear: both"> </li>
+</ul>
+<li>Add the following code to the Assembly.cs file.&nbsp; More documentation <a href="http://logging.apache.org/log4net/release/manual/configuration.html" onclick="javascript:pageTracker._trackPageview(&#39;/logging.apache.org&#39;);">here</a>:</li>
+<ul>
+<div class="code"><font color="#006400">// Configure log4net using the .config file         <br></font><font color="#000000">[assembly:</font><font color="#808080">&nbsp;</font><font color="#000000">log4net.Config.XmlConfigurator(Watch</font><font color="#808080">&nbsp;</font><font color="#0000ff">=</font><font color="#808080">&nbsp;</font><font color="#0000ff">true</font><font color="#000000">)]</font><font color="#808080">         <br></font><font color="#006400">// This will cause log4net to look for a configuration file         <br>// called TestApp.exe.config in the application base          <br>// directory (i.e. the directory containing TestApp.exe)          <br>// The config file will be watched for changes.</font> </div>
+</ul>
+<li>Add the following section to the web/app.config file in the &lt;configuration&gt; node:</li>
+<ul>
+<div class="code"><font color="#0000ff">&lt;</font><font color="#800000">configSections</font><font color="#0000ff">&gt;</font><font color="#000000">         <br>&nbsp; </font><font color="#0000ff">&lt;</font><font color="#800000">section</font><font color="#ff0000"> name</font><font color="#0000ff">="log4net"</font><font color="#ff0000"> type</font><font color="#0000ff">="log4net.Config.Log4NetConfigurationSectionHandler, log4net"</font><font color="#ff0000">&nbsp;</font><font color="#0000ff">/&gt;         <br>&lt;/</font><font color="#800000">configSections</font><font color="#0000ff">&gt;</font><font color="#000000"></font> </div>
+</ul>
+<li>Create a new section in the web/app.config using log4net as the node name:</li>
+<ul>
+<div class="code"><font color="#0000ff">&lt;</font><font color="#800000">log4net</font><font color="#0000ff">&gt;</font><font color="#000000">         <br>&nbsp; </font><font color="#0000ff">&lt;</font><font color="#800000">appender</font><font color="#ff0000"> name</font><font color="#0000ff">="FileAppender"</font><font color="#ff0000"> type</font><font color="#0000ff">="log4net.Appender.FileAppender"&gt;</font><font color="#000000">         <br>&nbsp;&nbsp;&nbsp; </font><font color="#0000ff">&lt;</font><font color="#800000">file</font><font color="#ff0000"> value</font><font color="#0000ff">="C:\logfile.txt"</font><font color="#ff0000">&nbsp;</font><font color="#0000ff">/&gt;         <br>&nbsp;&nbsp;&nbsp; &lt;</font><font color="#800000">appendToFile</font><font color="#ff0000"> value</font><font color="#0000ff">="true"</font><font color="#ff0000">&nbsp;</font><font color="#0000ff">/&gt;         <br>&nbsp;&nbsp;&nbsp; &lt;</font><font color="#800000">layout</font><font color="#ff0000"> type</font><font color="#0000ff">="log4net.Layout.PatternLayout"&gt;</font><font color="#000000">         <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font><font color="#0000ff">&lt;</font><font color="#800000">conversionPattern</font><font color="#ff0000"> value</font><font color="#0000ff">="%date [%thread] %-5level %logger [%property{NDC}] – %message%newline"</font><font color="#ff0000">&nbsp;</font><font color="#0000ff">/&gt;         <br>&nbsp;&nbsp;&nbsp; &lt;/</font><font color="#800000">layout</font><font color="#0000ff">&gt;</font><font color="#000000">         <br>&nbsp; </font><font color="#0000ff">&lt;/</font><font color="#800000">appender</font><font color="#0000ff">&gt;</font><font color="#000000">         <br>&nbsp; </font><font color="#0000ff">&lt;</font><font color="#800000">root</font><font color="#0000ff">&gt;</font><font color="#000000">         <br>&nbsp;&nbsp;&nbsp; </font><font color="#0000ff">&lt;</font><font color="#800000">level</font><font color="#ff0000"> value</font><font color="#0000ff">="DEBUG"</font><font color="#ff0000">&nbsp;</font><font color="#0000ff">/&gt;         <br>&nbsp;&nbsp;&nbsp; &lt;</font><font color="#800000">appender-ref</font><font color="#ff0000"> ref</font><font color="#0000ff">="FileAppender"</font><font color="#ff0000">&nbsp;</font><font color="#0000ff">/&gt;         <br>&nbsp; &lt;/</font><font color="#800000">root</font><font color="#0000ff">&gt;</font><font color="#000000">         <br></font><font color="#0000ff">&lt;/</font><font color="#800000">log4net</font><font color="#0000ff">&gt;</font><font color="#000000"></font> </div>
+</ul>
+<li>At the top of the class in which you want to implement logging, add the <font face="Consol"><font color="#0000ff">using</font><font color="#808080">&nbsp;</font><font color="#000000">log4net</font><font color="#0000ff">;</font></font> directive.</li>
+<li>Define a static logger variable at the top of your class.&nbsp; Something like this will work:</li>
+<ul>
+<div class="code"><font color="#0000ff">private</font><font color="#808080">&nbsp;</font><font color="#0000ff">static</font><font color="#808080">&nbsp;</font><font color="#0000ff">readonly</font><font color="#808080">&nbsp;</font><font color="#000000">ILog</font><font color="#808080">&nbsp;</font><font color="#000000">log</font><font color="#808080">&nbsp;</font><font color="#0000ff">=</font><font color="#808080">&nbsp;</font><font color="#000000">LogManager.GetLogger(</font><font color="#0000ff">typeof</font><font color="#000000">(Program))</font><font color="#0000ff">;</font> </div>
+</ul>
+<li>Start adding logging statements to your code, for example:</li>
+<ul>
+<div class="code"><font color="#000000">log.Info(</font><font color="#808080">"Entering application."</font><font color="#000000">)</font><font color="#0000ff">;</font> </div>
+</ul>
+<li>Altogether then, your class might look something like this:</li>
+<ul>
+<div class="code"><font color="#0000ff">using</font><font color="#808080">&nbsp;</font><font color="#000000">System</font><font color="#0000ff">;</font><font color="#808080">         <br></font><font color="#0000ff">using</font><font color="#808080">&nbsp;</font><font color="#000000">System.Collections.Generic</font><font color="#0000ff">;</font><font color="#808080">         <br></font><font color="#0000ff">using</font><font color="#808080">&nbsp;</font><font color="#000000">System.Text</font><font color="#0000ff">;</font><font color="#808080">         <br></font><font color="#0000ff">using</font><font color="#808080">&nbsp;</font><font color="#000000">log4net</font><font color="#0000ff">;</font><font color="#808080">         &lt;/p&gt;
+<p>&lt;/font&gt;<font color="#0000ff">namespace</font><font color="#808080">&nbsp;</font><font color="#000000">log4netDemo</font><font color="#808080">         <br></font><font color="#000000">{</font><font color="#808080">         <br>&nbsp;&nbsp;&nbsp; </font><font color="#0000ff">class</font><font color="#808080">&nbsp;</font><font color="#000000">Program</font><font color="#808080">         <br>&nbsp;&nbsp;&nbsp; </font><font color="#000000">{</font><font color="#808080">         <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font><font color="#006400">// Define a static logger variable so that it references the name of your class         <br></font><font color="#808080">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font><font color="#0000ff">private</font><font color="#808080">&nbsp;</font><font color="#0000ff">static</font><font color="#808080">&nbsp;</font><font color="#0000ff">readonly</font><font color="#808080">&nbsp;</font><font color="#000000">ILog</font><font color="#808080">&nbsp;</font><font color="#000000">log</font><font color="#808080">&nbsp;</font><font color="#0000ff">=</font><font color="#808080">&nbsp;</font><font color="#000000">LogManager.GetLogger(</font><font color="#0000ff">typeof</font><font color="#000000">(Program))</font><font color="#0000ff">;</font><font color="#808080">         &lt;/p&gt;
+</font></p><p><font color="#808080">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/font&gt;<font color="#0000ff">static</font><font color="#808080">&nbsp;</font><font color="#0000ff">void</font><font color="#808080">&nbsp;</font><font color="#000000">Main(</font><font color="#0000ff">string</font><font color="#000000">[]</font><font color="#808080">&nbsp;</font><font color="#000000">args)</font><font color="#808080">         <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font><font color="#000000">{</font><font color="#808080">         <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font><font color="#000000">log.Info(</font><font color="#808080">"Entering application."</font><font color="#000000">)</font><font color="#0000ff">;</font><font color="#808080">         &lt;/p&gt;
+</font></font></p><p><font color="#808080"><font color="#808080">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/font&gt;<font color="#0000ff">for</font><font color="#808080">&nbsp;</font><font color="#000000">(</font><font color="#0000ff">int</font><font color="#808080">&nbsp;</font><font color="#000000">i</font><font color="#808080">&nbsp;</font><font color="#0000ff">=</font><font color="#808080">&nbsp;</font><font color="#800000">0</font><font color="#0000ff">;</font><font color="#808080">&nbsp;</font><font color="#000000">i</font><font color="#808080">&nbsp;</font><font color="#000000">&lt;</font><font color="#808080">&nbsp;</font><font color="#800000">10</font><font color="#0000ff">;</font><font color="#808080">&nbsp;</font><font color="#000000">i++)</font><font color="#808080">         <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font><font color="#000000">{</font><font color="#808080">         <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font><font color="#000000">log.DebugFormat(</font><font color="#808080">"Inside of the loop (i = {0})"</font><font color="#000000">,</font><font color="#808080">&nbsp;</font><font color="#000000">i)</font><font color="#0000ff">;</font><font color="#808080">         <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font><font color="#000000">}</font><font color="#808080">         &lt;/p&gt;
+</font></font></font></p><p><font color="#808080"><font color="#808080"><font color="#808080">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/font&gt;<font color="#000000">log.Info(</font><font color="#808080">"Exiting application."</font><font color="#000000">)</font><font color="#0000ff">;</font><font color="#808080">         <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font><font color="#000000">}</font><font color="#808080">         <br>&nbsp;&nbsp;&nbsp; </font><font color="#000000">}</font><font color="#808080">         <br></font><font color="#000000">}</font> &lt;/div&gt;
+&lt;/ul&gt;
+</font></font></font></p><li><font color="#808080"><font color="#808080">Which would produce this output when run:</font></font></li><font color="#808080"><font color="#808080">
+<ul>
+<div class="code">2008-05-12 19:53:28,059 [11] INFO&nbsp; log4netDemo.Program [(null)] – Entering application.       <br>2008-05-12 19:53:28,260 [11] DEBUG log4netDemo.Program [(null)] – Inside of the loop (i = 0)        <br>2008-05-12 19:53:28,280 [11] DEBUG log4netDemo.Program [(null)] – Inside of the loop (i = 1)        <br>2008-05-12 19:53:28,280 [11] DEBUG log4netDemo.Program [(null)] – Inside of the loop (i = 2)        <br>2008-05-12 19:53:28,280 [11] DEBUG log4netDemo.Program [(null)] – Inside of the loop (i = 3)        <br>2008-05-12 19:53:28,280 [11] DEBUG log4netDemo.Program [(null)] – Inside of the loop (i = 4)        <br>2008-05-12 19:53:28,280 [11] DEBUG log4netDemo.Program [(null)] – Inside of the loop (i = 5)        <br>2008-05-12 19:53:28,280 [11] DEBUG log4netDemo.Program [(null)] – Inside of the loop (i = 6)        <br>2008-05-12 19:53:28,280 [11] DEBUG log4netDemo.Program [(null)] – Inside of the loop (i = 7)        <br>2008-05-12 19:53:28,280 [11] DEBUG log4netDemo.Program [(null)] – Inside of the loop (i = <img src="./Quick and easy log4net setup_files/icon_cool.gif" alt="8)" class="wp-smiley">        <br>2008-05-12 19:53:28,280 [11] DEBUG log4netDemo.Program [(null)] – Inside of the loop (i = 9)        <br>2008-05-12 19:53:28,280 [11] INFO&nbsp; log4netDemo.Program [(null)] – Exiting application. </div>
+</ul>
+&lt;/ol&gt;
+<p>&nbsp;</p>
+<p>That really should be all there is to it.&nbsp; Although I did find the lack of a simple, quickstart guide daunting, there is actually a lot of good documentation on the log4net site.&nbsp; Particularly, if you want to use a <a href="http://logging.apache.org/log4net/release/config-examples.html" onclick="javascript:pageTracker._trackPageview(&#39;/logging.apache.org&#39;);">different appender</a> or read a more <a href="http://logging.apache.org/log4net/release/manual/introduction.html" onclick="javascript:pageTracker._trackPageview(&#39;/logging.apache.org&#39;);">general introduction</a>.</p>
+<p>If you’re interested, I’ve zipped up a sample solution using the code above.&nbsp; You can download it <a href="http://www.justinrhinesmith.com/blog/samplecode/log4netDemo.zip" onclick="javascript:pageTracker._trackPageview(&#39;dl/blog/samplecode/log4netDemo.zip&#39;);">here</a>.</p>
+<p></p></font><p></p></font><p></p></font><p></p></div></ul></ol>
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">JustinRhinesmith.com</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>JustinRhinesmith.com</li>
+          <li><a href="mailto:jerhinesmith@gmail.com">jerhinesmith@gmail.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/jerhinesmith"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"></path></svg>
+</span><span class="username">jerhinesmith</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/jerhinesmith"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"></path></svg>
+</span><span class="username">jerhinesmith</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Personal site for Justin Rhinesmith</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  
+
+
+</body></html>

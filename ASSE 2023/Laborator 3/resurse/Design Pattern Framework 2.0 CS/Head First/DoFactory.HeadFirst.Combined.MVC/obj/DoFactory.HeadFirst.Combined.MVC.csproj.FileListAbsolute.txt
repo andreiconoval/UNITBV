@@ -1,0 +1,9 @@
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Combined.MVC\bin\Debug\DoFactory.HeadFirst.Combined.MVC.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Combined.MVC\bin\Debug\DoFactory.HeadFirst.Combined.MVC.pdb
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Combined.MVC\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Combined.MVC\obj\Debug\DoFactory.HeadFirst.Combined.MVC.BeatPanel.resources
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Combined.MVC\obj\Debug\DoFactory.HeadFirst.Combined.MVC.BeatTextBox.resources
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Combined.MVC\obj\Debug\DoFactory.HeadFirst.Combined.MVC.FormMain.resources
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Combined.MVC\obj\Debug\DoFactory.HeadFirst.Combined.MVC.csproj.GenerateResource.Cache
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Combined.MVC\obj\Debug\DoFactory.HeadFirst.Combined.MVC.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Combined.MVC\obj\Debug\DoFactory.HeadFirst.Combined.MVC.pdb

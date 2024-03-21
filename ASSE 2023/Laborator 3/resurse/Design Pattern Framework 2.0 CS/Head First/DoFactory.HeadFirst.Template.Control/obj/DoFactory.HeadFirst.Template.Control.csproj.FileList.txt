@@ -1,0 +1,7 @@
+bin\Debug\DoFactory.HeadFirst.Template.Control.exe
+bin\Debug\DoFactory.HeadFirst.Template.Control.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.HeadFirst.Template.Control.Form1.resources
+obj\Debug\DoFactory.HeadFirst.Template.Control.csproj.GenerateResource.Cache
+obj\Debug\DoFactory.HeadFirst.Template.Control.exe
+obj\Debug\DoFactory.HeadFirst.Template.Control.pdb

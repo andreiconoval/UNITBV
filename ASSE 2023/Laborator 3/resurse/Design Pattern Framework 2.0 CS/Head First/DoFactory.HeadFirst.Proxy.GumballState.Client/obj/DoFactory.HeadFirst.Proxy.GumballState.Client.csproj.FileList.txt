@@ -1,0 +1,7 @@
+bin\Debug\DoFactory.HeadFirst.Proxy.GumballState.Client.exe
+bin\Debug\DoFactory.HeadFirst.Proxy.GumballState.Client.pdb
+bin\Debug\DoFactory.HeadFirst.Proxy.GumballState.Machine.dll
+bin\Debug\DoFactory.HeadFirst.Proxy.GumballState.Machine.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.HeadFirst.Proxy.GumballState.Client.exe
+obj\Debug\DoFactory.HeadFirst.Proxy.GumballState.Client.pdb

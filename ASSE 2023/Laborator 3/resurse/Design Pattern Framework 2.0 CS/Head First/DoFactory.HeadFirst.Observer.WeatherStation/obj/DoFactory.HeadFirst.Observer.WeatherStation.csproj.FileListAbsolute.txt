@@ -1,0 +1,5 @@
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Observer.WeatherStation\bin\Debug\DoFactory.HeadFirst.Observer.WeatherStation.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Observer.WeatherStation\bin\Debug\DoFactory.HeadFirst.Observer.WeatherStation.pdb
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Observer.WeatherStation\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Observer.WeatherStation\obj\Debug\DoFactory.HeadFirst.Observer.WeatherStation.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Observer.WeatherStation\obj\Debug\DoFactory.HeadFirst.Observer.WeatherStation.pdb

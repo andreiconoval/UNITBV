@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Cart</name>
+    </assembly>
+    <members>
+        <member name="T:DoFactory.Framework.Cart.IShipping">
+            <summary>
+            Defines methods to determine shipping costs.
+            </summary>
+        </member>
+        <member name="M:DoFactory.Framework.Cart.IShipping.EstimateShipping(System.Double,System.Int32)">
+            <summary>
+            Estimates shipping costs given a product unit price and quantity.
+            </summary>
+            <param name="unitPrice">Unit price of product.</param>
+            <param name="quantity">Quantity ordered</param>
+            <returns>Estimated shipping cost.</returns>
+        </member>
+        <member name="M:DoFactory.Framework.Cart.IShipping.CalculateShipping(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Calculates shipping costs given zip codes and product dimensions. 
+            </summary>
+            <param name="fromZip">Zip code of warehouse.</param>
+            <param name="toZip">Zip code of customer.</param>
+            <param name="weight">Product weight.</param>
+            <param name="size">Product size.</param>
+            <returns>Shipping costs.</returns>
+        </member>
+        <member name="T:DoFactory.Framework.Cart.ShippingMethod">
+            <summary>
+            Enumeration of different product shipping methods.
+            </summary>
+        </member>
+        <member name="F:DoFactory.Framework.Cart.ShippingMethod.Fedex">
+            <summary>
+            Shipping via Federal Express.
+            </summary>
+        </member>
+        <member name="F:DoFactory.Framework.Cart.ShippingMethod.UPS">
+            <summary>
+            Shipping via United Postal Services.
+            </summary>
+        </member>
+        <member name="F:DoFactory.Framework.Cart.ShippingMethod.USPS">
+            <summary>
+            Shipping via United States Postal Services.
+            </summary>
+        </member>
+        <member name="T:DoFactory.Framework.Cart.ShippingStrategyFedex">
+            <summary>
+            Federal Express specific class to determine shipping costs.
+            
+            GoF Design Pattern: Strategy.
+            </summary>
+        </member>
+        <member name="M:DoFactory.Framework.Cart.ShippingStrategyFedex.EstimateShipping(System.Double,System.Int32)">
+            <summary>
+            Estimates shipping costs given a product unit price and quantity.
+            </summary>
+            <param name="unitPrice">Unit price of product.</param>
+            <param name="quantity">Quantity ordered</param>
+            <returns>Estimated shipping cost.</returns>
+        </member>
+        <member name="M:DoFactory.Framework.Cart.ShippingStrategyFedex.CalculateShipping(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Calculates shipping costs given zip codes and product dimensions. 
+            </summary>
+            <param name="fromZip">Zip code of warehouse.</param>
+            <param name="toZip">Zip code of customer.</param>
+            <param name="weight">Product weight.</param>
+            <param name="size">Product size.</param>
+            <returns>Shipping costs.</returns>
+        </member>
+        <member name="T:DoFactory.Framework.Cart.ShippingStrategyUPS">
+            <summary>
+            United Postal Service specific class to determine shipping costs.
+            
+            GoF Design Pattern: Strategy.
+            </summary>
+        </member>
+        <member name="M:DoFactory.Framework.Cart.ShippingStrategyUPS.EstimateShipping(System.Double,System.Int32)">
+            <summary>
+            Estimates shipping costs given a product unit price and quantity.
+            </summary>
+            <param name="unitPrice">Unit price of product.</param>
+            <param name="quantity">Quantity ordered</param>
+            <returns>Estimated shipping cost.</returns>
+        </member>
+        <member name="M:DoFactory.Framework.Cart.ShippingStrategyUPS.CalculateShipping(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Calculates shipping costs given zip codes and product dimensions. 
+            </summary>
+            <param name="fromZip">Zip code of warehouse.</param>
+            <param name="toZip">Zip code of customer.</param>
+            <param name="weight">Product weight.</param>
+            <param name="size">Product size.</param>
+            <returns>Shipping costs.</returns>
+        </member>
+        <member name="T:DoFactory.Framework.Cart.ShippingStrategyUSPS">
+            <summary>
+            United States Postal Service specific class to determine shipping costs.
+            
+            GoF Design Pattern: Strategy.
+            </summary>
+        </member>
+        <member name="M:DoFactory.Framework.Cart.ShippingStrategyUSPS.EstimateShipping(System.Double,System.Int32)">
+            <summary>
+            Estimates shipping costs given a product unit price and quantity.
+            </summary>
+            <param name="unitPrice">Unit price of product.</param>
+            <param name="quantity">Quantity ordered</param>
+            <returns>Estimated shipping cost.</returns>
+        </member>
+        <member name="M:DoFactory.Framework.Cart.ShippingStrategyUSPS.CalculateShipping(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Calculates shipping costs given zip codes and product dimensions. 
+            </summary>
+            <param name="fromZip">Zip code of warehouse.</param>
+            <param name="toZip">Zip code of customer.</param>
+            <param name="weight">Product weight.</param>
+            <param name="size">Product size.</param>
+            <returns>Shipping costs.</returns>
+        </member>
+        <member name="T:DoFactory.Framework.Cart.ShoppingCart">
+            <summary>
+            A non-persistent shopping cart.
+            
+            GoF Design Patterns: Strategy.
+            Enterprise Design Patterns: Table Module, Data Table Gateway.
+            </summary>
+            <remarks>
+            The shopping cart data is stored in a DataTable. It would be easy to 
+            change this to a persistent cart using a database table that mirrors
+            this DataTable. You would need to a few methods to the CustomerFacade.
+            
+            The Strategy Pattern is the 'pluggability' of the different shipping methods. 
+            
+            The Table Module Pattern states that it handles domain logic with one class 
+            per table.  This is essentially what the Cart's DataTable is.
+            
+            The Data Table Gateway Pattern would be implemented if the shopping cart were
+            to be made persistent (as explained above). One instance would handle all rows
+            in the database table.
+            </remarks>
+        </member>
+        <member name="M:DoFactory.Framework.Cart.ShoppingCart.#ctor">
+            <summary>
+            Default constructor for shopping cart. 
+            The internal DataTable is configured here.
+            Fedex is the default shipping strategy.
+            </summary>
+        </member>
+        <member name="M:DoFactory.Framework.Cart.ShoppingCart.AddItem(System.Int32,System.String,System.Int32,System.Double)">
+            <summary>
+            Adds a product item to the shopping cart.
+            </summary>
+            <param name="id">Unique product identifier.</param>
+            <param name="name">Product name.</param>
+            <param name="quantity">Quantity.</param>
+            <param name="unitPrice">Unit price of product.</param>
+        </member>
+        <member name="M:DoFactory.Framework.Cart.ShoppingCart.RemoveItem(System.Int32)">
+            <summary>
+            Removes a product item from the shopping cart.
+            </summary>
+            <param name="id">Unique product identifier.</param>
+        </member>
+        <member name="M:DoFactory.Framework.Cart.ShoppingCart.UpdateQuantity(System.Int32,System.Int32)">
+            <summary>
+            Updates quantity for a given product in shopping cart.
+            </summary>
+            <param name="id">Unique product identifier.</param>
+            <param name="quantity">New quantity.</param>
+        </member>
+        <member name="M:DoFactory.Framework.Cart.ShoppingCart.ReCalculate">
+            <summary>
+            Recalculates the total, subtotals, and shipping costs.
+            </summary>
+        </member>
+        <member name="P:DoFactory.Framework.Cart.ShoppingCart.SubTotal">
+            <summary>
+            Gets subtotal for all items in the shopping cart. Recalculate if needed.
+            </summary>
+        </member>
+        <member name="P:DoFactory.Framework.Cart.ShoppingCart.Total">
+            <summary>
+            Gets total for all items in shopping cart. Recalculate if needed.
+            </summary>
+        </member>
+        <member name="P:DoFactory.Framework.Cart.ShoppingCart.Shipping">
+            <summary>
+            Gets shipping cost for all items in shopping cart. Recalculate if needed.
+            </summary>
+        </member>
+        <member name="P:DoFactory.Framework.Cart.ShoppingCart.ItemCount">
+            <summary>
+            Gets number of items in shopping cart.
+            </summary>
+        </member>
+        <member name="P:DoFactory.Framework.Cart.ShoppingCart.DataTable">
+            <summary>
+            Gets datatable holding shopping cart data.
+            </summary>
+        </member>
+        <member name="P:DoFactory.Framework.Cart.ShoppingCart.ShippingStrategy">
+            <summary>
+            Gets or sets shipping 'strategy', i.e. the means at which products are shipped.
+            This is the Strategy Design Pattern in action.
+            </summary>
+        </member>
+    </members>
+</doc>

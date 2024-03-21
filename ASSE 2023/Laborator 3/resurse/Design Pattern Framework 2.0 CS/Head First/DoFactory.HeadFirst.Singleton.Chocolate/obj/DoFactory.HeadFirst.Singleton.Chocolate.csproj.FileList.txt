@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.HeadFirst.Singleton.Chocolate.exe
+bin\Debug\DoFactory.HeadFirst.Singleton.Chocolate.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.HeadFirst.Singleton.Chocolate.exe
+obj\Debug\DoFactory.HeadFirst.Singleton.Chocolate.pdb

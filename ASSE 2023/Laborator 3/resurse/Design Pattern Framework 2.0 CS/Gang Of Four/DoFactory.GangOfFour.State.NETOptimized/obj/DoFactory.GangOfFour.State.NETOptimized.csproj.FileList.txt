@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.GangOfFour.State.NETOptimized.exe
+bin\Debug\DoFactory.GangOfFour.State.NETOptimized.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.GangOfFour.State.NETOptimized.exe
+obj\Debug\DoFactory.GangOfFour.State.NETOptimized.pdb

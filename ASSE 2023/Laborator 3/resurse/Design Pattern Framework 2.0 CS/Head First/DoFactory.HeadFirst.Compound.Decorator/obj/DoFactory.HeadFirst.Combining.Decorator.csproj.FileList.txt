@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.HeadFirst.Compound.Decorator.exe
+bin\Debug\DoFactory.HeadFirst.Compound.Decorator.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.HeadFirst.Compound.Decorator.exe
+obj\Debug\DoFactory.HeadFirst.Compound.Decorator.pdb

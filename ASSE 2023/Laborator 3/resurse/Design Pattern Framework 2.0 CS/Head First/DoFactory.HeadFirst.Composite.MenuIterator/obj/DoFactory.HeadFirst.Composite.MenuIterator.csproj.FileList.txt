@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.HeadFirst.Composite.MenuIterator.exe
+bin\Debug\DoFactory.HeadFirst.Composite.MenuIterator.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.HeadFirst.Composite.MenuIterator.exe
+obj\Debug\DoFactory.HeadFirst.Composite.MenuIterator.pdb

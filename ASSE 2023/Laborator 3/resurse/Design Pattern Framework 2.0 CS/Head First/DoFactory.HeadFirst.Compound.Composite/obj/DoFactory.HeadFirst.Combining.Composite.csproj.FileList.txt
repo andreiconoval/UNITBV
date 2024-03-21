@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.HeadFirst.Compound.Composite.exe
+bin\Debug\DoFactory.HeadFirst.Compound.Composite.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.HeadFirst.Compound.Composite.exe
+obj\Debug\DoFactory.HeadFirst.Compound.Composite.pdb

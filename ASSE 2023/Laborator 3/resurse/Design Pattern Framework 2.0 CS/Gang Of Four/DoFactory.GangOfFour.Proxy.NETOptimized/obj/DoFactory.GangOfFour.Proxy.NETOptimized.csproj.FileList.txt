@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.GangOfFour.Proxy.NETOptimized.exe
+bin\Debug\DoFactory.GangOfFour.Proxy.NETOptimized.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.GangOfFour.Proxy.NETOptimized.exe
+obj\Debug\DoFactory.GangOfFour.Proxy.NETOptimized.pdb

@@ -1,0 +1,5 @@
+bin\Debug\Cart.dll
+bin\Debug\Cart.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Cart.dll
+obj\Debug\Cart.pdb

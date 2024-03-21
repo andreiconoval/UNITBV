@@ -1,0 +1,5 @@
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Composite.MenuIterator\bin\Debug\DoFactory.HeadFirst.Composite.MenuIterator.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Composite.MenuIterator\bin\Debug\DoFactory.HeadFirst.Composite.MenuIterator.pdb
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Composite.MenuIterator\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Composite.MenuIterator\obj\Debug\DoFactory.HeadFirst.Composite.MenuIterator.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Composite.MenuIterator\obj\Debug\DoFactory.HeadFirst.Composite.MenuIterator.pdb

@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.HeadFirst.Compound.Observer.exe
+bin\Debug\DoFactory.HeadFirst.Compound.Observer.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.HeadFirst.Compound.Observer.exe
+obj\Debug\DoFactory.HeadFirst.Compound.Observer.pdb

@@ -1,0 +1,5 @@
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Singleton.Chocolate\bin\Debug\DoFactory.HeadFirst.Singleton.Chocolate.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Singleton.Chocolate\bin\Debug\DoFactory.HeadFirst.Singleton.Chocolate.pdb
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Singleton.Chocolate\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Singleton.Chocolate\obj\Debug\DoFactory.HeadFirst.Singleton.Chocolate.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Singleton.Chocolate\obj\Debug\DoFactory.HeadFirst.Singleton.Chocolate.pdb

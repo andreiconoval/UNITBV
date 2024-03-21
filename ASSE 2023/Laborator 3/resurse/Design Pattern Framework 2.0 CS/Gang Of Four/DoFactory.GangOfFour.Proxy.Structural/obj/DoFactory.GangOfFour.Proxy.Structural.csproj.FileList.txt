@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.GangOfFour.Proxy.Structural.exe
+bin\Debug\DoFactory.GangOfFour.Proxy.Structural.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.GangOfFour.Proxy.Structural.exe
+obj\Debug\DoFactory.GangOfFour.Proxy.Structural.pdb

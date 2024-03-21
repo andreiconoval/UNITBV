@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ViewState</name>
+    </assembly>
+    <members>
+        <member name="T:DoFactory.Framework.ViewState.ViewStateProviderCollection">
+            <summary>
+            Represents a collection of viewstate providers.
+            
+            Design Pattern: Microsoft's Provider Design Pattern. This patterns is
+            really is a blending of 3 GoF Design Patterns: Strategy, Factory, Singleton.
+            
+            Strategy Pattern because the client has the option which viewstate provider Strategy to choose.
+            Singleton Pattern because GlobalViewStateSingleton is a Singleton that holds a list of all available viewstate providers.
+            Factory Pattern because viewstate providers are manufactured by a Factory class according to settings in a configuration file (web config).
+            </summary>
+        </member>
+        <member name="P:DoFactory.Framework.ViewState.ViewStateProviderCollection.Item(System.String)">
+            <summary>
+            Gets a viewState provider from a list given its name.
+            </summary>
+            <param name="name">Provider name.</param>
+            <returns>Viewstate provider.</returns>
+        </member>
+        <member name="M:DoFactory.Framework.ViewState.ViewStateProviderCollection.Add(System.Configuration.Provider.ProviderBase)">
+            <summary>
+            Adds a viewstate provider to a collection of providers.
+            </summary>
+            <param name="provider">Viewstate provider.</param>
+        </member>
+        <member name="T:DoFactory.Framework.ViewState.GlobalViewStateSingleton">
+            <summary>
+            GlobalViewStateSingleton maintains a list of viewstates in a 
+            globally accessible hashtable. This is a Singleton helper class to the 
+            ViewStateProviderGlobal class.
+            
+            Gof Design Pattern: Singleton.
+            </summary>
+            <remarks>
+            The Singleton Design Pattern ensures that just one instance (the Singleton) 
+            holds a reference to a list of all viewstate providers declared in the 
+            configuration file (web.config).
+            </remarks>
+        </member>
+        <member name="M:DoFactory.Framework.ViewState.GlobalViewStateSingleton.#ctor">
+            <summary>
+            Private constructor for GlobalViewStateSingleton.
+            Prevents others from instantiating additional instances.
+            </summary>
+        </member>
+        <member name="P:DoFactory.Framework.ViewState.GlobalViewStateSingleton.Instance">
+            <summary>
+            Gets the one instance of the GlobalViewStateSingleton class
+            </summary>
+        </member>
+        <member name="P:DoFactory.Framework.ViewState.GlobalViewStateSingleton.ViewStates">
+            <summary>
+            Gets a list of ViewStates.
+            </summary>
+        </member>
+        <member name="T:DoFactory.Framework.ViewState.ViewStateProviderCache">
+            <summary>
+            Viewstate provider that is implemented using a cache.
+            
+            Gof Design Pattern: Strategy.
+            </summary>
+            <remarks>
+            The Strategy Design Pattern ensures that this class is 'pluggable' and 
+            can fully function as a viewstate provider.
+            </remarks>
+        </member>
+        <member name="M:DoFactory.Framework.ViewState.ViewStateProviderCache.SavePageState(System.String,System.Object)">
+            <summary>
+            Saves view state information for the web page in cache.
+            </summary>
+            <param name="name">Name of the viewstate.</param>
+            <param name="viewState">Viewstate.</param>
+        </member>
+        <member name="M:DoFactory.Framework.ViewState.ViewStateProviderCache.LoadPageState(System.String)">
+            <summary>
+            Retrieves viewstate information for the web page from cache.
+            </summary>
+            <param name="name">Name of the viewstate.</param>
+            <returns>Viewstate.</returns>
+        </member>
+        <member name="T:DoFactory.Framework.ViewState.ViewStateProviderBase">
+            <summary>
+            Defines the methods that viewstate providers should implement.
+            
+            Design Pattern: Microsoft's Provider Design Pattern. This patterns is
+            really is a blending of 3 GoF Design Patterns: Strategy, Factory, Singleton.
+            
+            Strategy Pattern because the client has the option which viewstate provider Strategy to choose.
+            Singleton Pattern because GlobalViewStateSingleton is a Singleton that holds a list of all available viewstate providers.
+            Factory Pattern because viewstate providers are manufactured according to settings in a configuration file (web config).
+            </summary>
+        </member>
+        <member name="M:DoFactory.Framework.ViewState.ViewStateProviderBase.SavePageState(System.String,System.Object)">
+            <summary>
+            Saves any view or control state information for the web page.
+            </summary>
+            <param name="name">Name of the viewstate.</param>
+            <param name="viewState">Viewstate.</param>
+        </member>
+        <member name="M:DoFactory.Framework.ViewState.ViewStateProviderBase.LoadPageState(System.String)">
+            <summary>
+            Loads any view or control state information for the web page.
+            </summary>
+            <param name="name">Name of the viewstate.</param>
+            <returns>Viewstate.</returns>
+        </member>
+        <member name="T:DoFactory.Framework.ViewState.ViewStateProviderGlobal">
+             <summary>
+             Viewstate provider that is implemented using a global singleton hashtable.
+            
+             Gof Design Pattern: Strategy.
+             </summary>
+             <remarks>
+             The Strategy Design Pattern ensures that this class is 'pluggable' and 
+             can fully function as a viewstate provider.
+             </remarks>
+        </member>
+        <member name="M:DoFactory.Framework.ViewState.ViewStateProviderGlobal.SavePageState(System.String,System.Object)">
+            <summary>
+            Saves view state information for the web page in a global variable.
+            </summary>
+            <param name="name">Name of the viewstate.</param>
+            <param name="viewState">Viewstate.</param>
+        </member>
+        <member name="M:DoFactory.Framework.ViewState.ViewStateProviderGlobal.LoadPageState(System.String)">
+            <summary>
+            Retrieves viewstate information for the web page from global variable.
+            </summary>
+            <param name="name">Name of the viewstate.</param>
+            <returns>Viewstate.</returns>
+        </member>
+        <member name="T:DoFactory.Framework.ViewState.ViewStateProviderService">
+            <summary>
+            ViewStateProviderService makes the viewstate providers available
+            to the client. This includes loading the providers declared in the 
+            web.config file.
+            
+            Enterprise Design Patterns: Lazy Load.
+            </summary>
+            <remarks>
+            The Lazy Load Design Pattern is implemented by the LoadProviders() method.
+            It only loads and creates the viewstate providers when the LoadPageState and the 
+            SavePageState methods are called. The LoadProviders() method coule have been 
+            called in the static constructor(Shared constructor in VB) which would turn the 
+            "Lazy Load" into a socalled "Eager Load".
+            </remarks>
+        </member>
+        <member name="M:DoFactory.Framework.ViewState.ViewStateProviderService.LoadPageState(System.String)">
+            <summary>
+            Retrieves the viewstate information from the appropriate viewstate provider. 
+            Implements Lazy Load Design Pattern.
+            </summary>
+            <param name="name">Name of provider.</param>
+            <returns>Viewstate.</returns>
+        </member>
+        <member name="M:DoFactory.Framework.ViewState.ViewStateProviderService.SavePageState(System.String,System.Object)">
+            <summary>
+            Saves any view or control state information to the appropriate 
+            viewstate provider. 
+            </summary>
+            <param name="name">Name of viewstate.</param>
+            <param name="viewState">Viewstate.</param>
+        </member>
+        <member name="M:DoFactory.Framework.ViewState.ViewStateProviderService.LoadProviders">
+            <summary>
+            Instantiates and manages the viewstate providers according to the 
+            registered providers in the "viewStateServices" section in web.config.
+            </summary>
+        </member>
+        <member name="T:DoFactory.Framework.ViewState.ViewStateProviderServiceSection">
+            <summary>
+            Represents the custom viewstate provider section in web.config.
+            
+            GoF Design Patterns: Factory.
+            </summary>
+            <remarks>
+            The Factory Design Pattern implementation is hidden from us, but is implemented
+            by the ConfigurationSection base class. This class reads the configuration 
+            file (web.config) and manufactures the viewstate providers accordingly.
+            </remarks>
+        </member>
+        <member name="P:DoFactory.Framework.ViewState.ViewStateProviderServiceSection.Providers">
+            <summary>
+            Gets a collection of viewstate providers from web.config.
+            </summary>
+        </member>
+        <member name="P:DoFactory.Framework.ViewState.ViewStateProviderServiceSection.DefaultProvider">
+            <summary>
+            Gets or sets the default viewstate provider.
+            </summary>
+        </member>
+        <member name="T:DoFactory.Framework.ViewState.ViewStateProviderSession">
+            <summary>
+            Viewstate provider that is implemented using session objects.
+            
+            Gof Design Pattern: Strategy.
+            </summary>
+            <remarks>
+            The Strategy Design Pattern ensures that this class is 'pluggable' and 
+            can fully function as a viewstate provider.
+            </remarks>
+        </member>
+        <member name="M:DoFactory.Framework.ViewState.ViewStateProviderSession.SavePageState(System.String,System.Object)">
+            <summary>
+            Saves view state information for the web page in a session object.
+            </summary>
+            <param name="name">Name of the viewstate.</param>
+            <param name="viewState">Viewstate.</param>
+        </member>
+        <member name="M:DoFactory.Framework.ViewState.ViewStateProviderSession.LoadPageState(System.String)">
+            <summary>
+            Retrieves viewstate information for the web page from session.
+            </summary>
+            <param name="name">Name of the viewstate.</param>
+            <returns>Viewstate.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,5 @@
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Command.Remote\bin\Debug\DoFactory.HeadFirst.Command.Remote.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Command.Remote\bin\Debug\DoFactory.HeadFirst.Command.Remote.pdb
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Command.Remote\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Command.Remote\obj\Debug\DoFactory.HeadFirst.Command.Remote.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Command.Remote\obj\Debug\DoFactory.HeadFirst.Command.Remote.pdb

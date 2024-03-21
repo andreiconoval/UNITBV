@@ -1,0 +1,5 @@
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Gang Of Four\DoFactory.GangOfFour.Abstract.Structural\bin\Debug\DoFactory.GangOfFour.Abstract.Structural.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Gang Of Four\DoFactory.GangOfFour.Abstract.Structural\bin\Debug\DoFactory.GangOfFour.Abstract.Structural.pdb
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Gang Of Four\DoFactory.GangOfFour.Abstract.Structural\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Gang Of Four\DoFactory.GangOfFour.Abstract.Structural\obj\Debug\DoFactory.GangOfFour.Abstract.Structural.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Gang Of Four\DoFactory.GangOfFour.Abstract.Structural\obj\Debug\DoFactory.GangOfFour.Abstract.Structural.pdb

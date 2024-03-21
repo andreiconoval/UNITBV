@@ -1,0 +1,13 @@
+D:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 2\VectorLibrary\.vs\VectorLibrary\lut\0\b\TestVector\bin\Debug\TestVector.dll
+D:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 2\VectorLibrary\.vs\VectorLibrary\lut\0\b\TestVector\bin\Debug\TestVector.pdb
+D:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 2\VectorLibrary\.vs\VectorLibrary\lut\0\i\TestVector\Debug\TestVector.csprojResolveAssemblyReference.cache
+D:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 2\VectorLibrary\.vs\VectorLibrary\lut\0\i\TestVector\Debug\TestVector.csproj.CoreCompileInputs.cache
+D:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 2\VectorLibrary\.vs\VectorLibrary\lut\0\i\TestVector\Debug\TestVector.dll
+D:\work\school\cursuri\ASSE\2017-2018\Laborator\Laborator 2\VectorLibrary\.vs\VectorLibrary\lut\0\i\TestVector\Debug\TestVector.pdb
+D:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 2\VectorLibrary\.vs\VectorLibrary\lut\0\b\TestVector\bin\Debug\TestVector.dll
+D:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 2\VectorLibrary\.vs\VectorLibrary\lut\0\b\TestVector\bin\Debug\TestVector.pdb
+D:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 2\VectorLibrary\.vs\VectorLibrary\lut\0\i\TestVector\Debug\TestVector.csprojAssemblyReference.cache
+D:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 2\VectorLibrary\.vs\VectorLibrary\lut\0\i\TestVector\Debug\TestVector.csproj.CoreCompileInputs.cache
+D:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 2\VectorLibrary\.vs\VectorLibrary\lut\0\i\TestVector\Debug\TestVector.csproj.CopyComplete
+D:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 2\VectorLibrary\.vs\VectorLibrary\lut\0\i\TestVector\Debug\TestVector.dll
+D:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 2\VectorLibrary\.vs\VectorLibrary\lut\0\i\TestVector\Debug\TestVector.pdb

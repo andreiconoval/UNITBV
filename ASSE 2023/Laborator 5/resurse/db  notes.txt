@@ -1,0 +1,15 @@
+Tech Reviewers:
+
+I created this exe using Red Gate SQL Packager 6.
+
+Although I'm using SQL Server 2008, i'm not using any SS2008 specific data types e.g. datetime2 or date.
+
+I don't have SS2005 installed on any of my machines any more.
+
+If someone is using SS2005, can you let me know how this works?
+
+I like the exe. The utility is very handy for me and also for the end user. Let me know what you think about using this instead of forcing people to deal with scripts. And the scripts would need to be modified to target the desired file path. Nasty stuff.
+
+Thanks
+
+Julie

@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.HeadFirst.Strategy.exe
+bin\Debug\DoFactory.HeadFirst.Strategy.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.HeadFirst.Strategy.exe
+obj\Debug\DoFactory.HeadFirst.Strategy.pdb

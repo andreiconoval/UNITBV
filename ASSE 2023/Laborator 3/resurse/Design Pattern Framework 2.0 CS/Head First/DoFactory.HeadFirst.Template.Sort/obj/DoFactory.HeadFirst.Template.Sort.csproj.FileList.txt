@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.HeadFirst.Template.Sort.exe
+bin\Debug\DoFactory.HeadFirst.Template.Sort.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.HeadFirst.Template.Sort.exe
+obj\Debug\DoFactory.HeadFirst.Template.Sort.pdb

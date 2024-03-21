@@ -1,0 +1,779 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WindowsSOAClient</name>
+    </assembly>
+    <members>
+        <member name="T:WindowsSOAClient.Customer">
+            <summary>
+            Customer business object as seen by the Web Service client.
+            </summary>
+            <remarks>
+            The client's view of what a business object is may be different
+            from how the Patterns In Action Business Layer sees it. For one thing, 
+            the identifiers are encrypted on this side.  However, the encryption 
+            is totally irrelevant to the client. In fact, they don't even have to 
+            know it is encrypted.
+            </remarks>
+        </member>
+        <member name="P:WindowsSOAClient.Customer.CustomerId">
+            <summary>
+            Gets or sets customerId. This id is encrypted.
+            </summary>
+        </member>
+        <member name="P:WindowsSOAClient.Customer.Company">
+            <summary>
+            Gets or sets customer name.
+            </summary>
+        </member>
+        <member name="P:WindowsSOAClient.Customer.City">
+            <summary>
+            Gets or sets customer city.
+            </summary>
+        </member>
+        <member name="P:WindowsSOAClient.Customer.Country">
+            <summary>
+            Gets or set customer country.
+            </summary>
+        </member>
+        <member name="P:WindowsSOAClient.Customer.Orders">
+            <summary>
+            Gets or sets list of orders associated with customer.
+            </summary>
+        </member>
+        <member name="T:WindowsSOAClient.Order">
+            <summary>
+            Order business object as seen by the Web Service client.
+            </summary>
+            <remarks>
+            The client's view of what a business object is may be different
+            from how the Patterns In Action Business Layer sees it. For one thing, 
+            the identifiers are encrypted on this side.  However, the encryption 
+            is totally irrelevant to the client. In fact, they don't even have to 
+            know it is encrypted.
+            </remarks>
+        </member>
+        <member name="P:WindowsSOAClient.Order.OrderId">
+            <summary>
+            Gets or sets order identifier. This identifier is encrypted.
+            </summary>
+        </member>
+        <member name="P:WindowsSOAClient.Order.OrderDate">
+            <summary>
+            Gets or sets order date.
+            </summary>
+        </member>
+        <member name="P:WindowsSOAClient.Order.RequiredDate">
+            <summary>
+            Gets or set required order delivery date.
+            </summary>
+        </member>
+        <member name="P:WindowsSOAClient.Order.Freight">
+            <summary>
+            Gets or sets freight (shipping) costs.
+            </summary>
+        </member>
+        <member name="P:WindowsSOAClient.Order.OrderDetails">
+            <summary>
+            Gets or sets list of order details (line items) for order.
+            </summary>
+        </member>
+        <member name="P:WindowsSOAClient.Order.Customer">
+            <summary>
+            Gets or sets customer for which order is placed.
+            </summary>
+        </member>
+        <member name="T:WindowsSOAClient.OrderDetail">
+            <summary>
+            Order detail business object as defined on SOA client side.
+            </summary>
+        </member>
+        <member name="P:WindowsSOAClient.OrderDetail.Product">
+            <summary>
+            Gets or sets product name.
+            </summary>
+        </member>
+        <member name="P:WindowsSOAClient.OrderDetail.Quantity">
+            <summary>
+            Gets or sets quantity of products ordered.
+            </summary>
+        </member>
+        <member name="P:WindowsSOAClient.OrderDetail.UnitPrice">
+            <summary>
+            Gets or set unit price of product.
+            </summary>
+        </member>
+        <member name="P:WindowsSOAClient.OrderDetail.Discount">
+            <summary>
+            Gets or sets discount applied to unit price in this order.
+            </summary>
+        </member>
+        <member name="P:WindowsSOAClient.OrderDetail.Order">
+            <summary>
+            Gets or sets order of which this order detail is a part.
+            </summary>
+        </member>
+        <member name="T:WindowsSOAClient.FormAbout">
+            <summary>
+            Displays information about the SOA windows client application.
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormAbout.#ctor">
+            <summary>
+            Default contructor for FormAbout.
+            </summary>
+        </member>
+        <member name="F:WindowsSOAClient.FormAbout.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormAbout.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WindowsSOAClient.FormAbout.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WindowsSOAClient.FormCustomer">
+            <summary>
+            This form is used to add new customer data or edit 
+            existing customer data. 
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormCustomer.#ctor">
+            <summary>
+            Default constructor of FormCustomer.
+            </summary>
+        </member>
+        <member name="P:WindowsSOAClient.FormCustomer.Company">
+            <summary>
+            Gets or sets customer (company) name.
+            </summary>
+        </member>
+        <member name="P:WindowsSOAClient.FormCustomer.City">
+            <summary>
+            Gets or sets customer city.
+            </summary>
+        </member>
+        <member name="P:WindowsSOAClient.FormCustomer.Country">
+            <summary>
+            Gets or set customer country.
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormCustomer.buttonSave_Click(System.Object,System.EventArgs)">
+            <summary>
+            Validates user input and, if valid, closes window. 
+            </summary>
+        </member>
+        <member name="F:WindowsSOAClient.FormCustomer.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormCustomer.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WindowsSOAClient.FormCustomer.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WindowsSOAClient.FormLogin">
+            <summary>
+            This is where users enter their credentials and security token to be authenticated
+            on the web service. For convenience credentials have been pre-populated. 
+            They are: 
+            userName: Jill
+            password: LochNess24
+            security token: ABC123
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormLogin.#ctor">
+            <summary>
+            Default contructor of FormLogin.
+            </summary>
+        </member>
+        <member name="P:WindowsSOAClient.FormLogin.UserName">
+            <summary>
+            Gets username.
+            </summary>
+        </member>
+        <member name="P:WindowsSOAClient.FormLogin.Password">
+            <summary>
+            Gets password.
+            </summary>
+        </member>
+        <member name="P:WindowsSOAClient.FormLogin.SecurityToken">
+            <summary>
+            Gets security token.
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormLogin.buttonOK_Click(System.Object,System.EventArgs)">
+            <summary>
+            Closes dialog with OK return value.
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormLogin.buttonCancel_Click(System.Object,System.EventArgs)">
+            <summary>
+            Closes dialog with Cancel return value.
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormLogin.linkLabelWebService_LinkClicked(System.Object,System.Windows.Forms.LinkLabelLinkClickedEventArgs)">
+            <summary>
+            Opens web service Url dialog.
+            </summary>
+        </member>
+        <member name="F:WindowsSOAClient.FormLogin.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormLogin.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WindowsSOAClient.FormLogin.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WindowsSOAClient.FormMain">
+            <summary>
+            Main window for windows SOA client. All business logic resides 
+            in this window as it responds to local control events, menu events, and 
+            closed dialog events. There is usually the preferred model, unless the 
+            child windows have significant processing requirements, then they handle 
+            that themselves. 
+            
+            All communications required for this application runs via the Web Service; 
+            there is no need for partitioning the client side up in logical layers because
+            there is just one: the presentation layer.
+            
+            If the need arises to store data locally (database or disk on the client side)
+            then you would design this application using a 3-tier model similar to what 
+            exists in the web application.
+            </summary>
+        </member>
+        <member name="F:WindowsSOAClient.FormMain.proxy">
+            <summary>
+            The (all important) Web service proxy object.
+            Design Pattern: Proxy Design Pattern. 
+            </summary>
+        </member>
+        <member name="F:WindowsSOAClient.FormMain.SecurityToken">
+            <summary>
+            Security token used for every request going to web service.
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormMain.#ctor">
+            <summary>
+            Default form constructor. 
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormMain.loginToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Displays login dialog box and loads customer list in treeview.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WindowsSOAClient.FormMain.logoutToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Logs user off, empties datagridviews, and disables menus.
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormMain.exitToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Exits application.
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormMain.treeViewCustomer_AfterSelect(System.Object,System.Windows.Forms.TreeViewEventArgs)">
+            <summary>
+            Retrieves order data from the web service for the customer currently selected.
+            If, however, orders were retrieved previously, then these will be displayed. 
+            The effect this has is that the client application speeds up over time. 
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormMain.BindOrders(System.Collections.Generic.IList{WindowsSOAClient.Order})">
+            <summary>
+            Databinds orders to dataGridView control.
+            Private helper method.
+            </summary>
+            <param name="orders">Order list.</param>
+        </member>
+        <member name="M:WindowsSOAClient.FormMain.dataGridViewOrders_SelectionChanged(System.Object,System.EventArgs)">
+            <summary>
+            Displays order details (line items) that are part of the currently 
+            selected order. 
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormMain.addToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Adds a new customer.
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormMain.AddCustomerToTree(WindowsSOAClient.Customer)">
+            <summary>
+            Private helper function that appends a customer to the next node
+            in the treeview
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormMain.editToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Edits an existing customer record.
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormMain.deleteToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Deletes a customer.
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormMain.addNewCustomerToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Redirects add customer request to equivalent menu event handler.
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormMain.editCustomerToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Redirects edit customer request to equivalent menu event handler.
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormMain.deleteCustomerToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Redirects delete customer request to equivalent menu event handler.
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormMain.treeViewCustomer_MouseUp(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Selects clicked node and then displays context menu. The tree node selection
+            is important here because this does not happen by default in this event. 
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormMain.toolStripButtonLogin_Click(System.Object,System.EventArgs)">
+            <summary>
+            Redirects login request to equivalent menu event handler.
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormMain.toolStripButtonLogout_Click(System.Object,System.EventArgs)">
+            <summary>
+            Redirects logout request to equivalent menu event handler.
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormMain.toolStripButtonAdd_Click(System.Object,System.EventArgs)">
+            <summary>
+            Redirects add customer request to equivalent menu event handler.
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormMain.toolStripButtonEdit_Click(System.Object,System.EventArgs)">
+            <summary>
+            Redirects edit customer request to equivalent menu event handler.
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormMain.toolStripButtonDelete_Click(System.Object,System.EventArgs)">
+            <summary>
+            Redirects delete customer request to equivalent menu event handler.
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormMain.aboutToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Opens the about dialog window.
+            </summary>
+        </member>
+        <member name="F:WindowsSOAClient.FormMain.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormMain.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WindowsSOAClient.FormMain.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WindowsSOAClient.FormUrl">
+            <summary>
+            This is where users can get and set the web service Url. This may be 
+            necessary if the web service url is not at the standard location 
+            (as specified in app.config).
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormUrl.#ctor">
+            <summary>
+            Default constructor of FormUrl.
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormUrl.FormUrl_Load(System.Object,System.EventArgs)">
+            <summary>
+            Displays current web service URL in dialog.
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormUrl.buttonOK_Click(System.Object,System.EventArgs)">
+            <summary>
+            Stores Url setting and closes dialog.
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormUrl.buttonCancel_Click(System.Object,System.EventArgs)">
+            <summary>
+            Cancels operation and closes dialog. 
+            </summary>
+        </member>
+        <member name="F:WindowsSOAClient.FormUrl.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.FormUrl.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WindowsSOAClient.FormUrl.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:WindowsSOAClient.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:WindowsSOAClient.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:WindowsSOAClient.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:WindowsSOAClient.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:WindowsSOAClient.ServiceUrl">
+            <summary>
+            Utility class holding the web service url.
+            </summary>
+        </member>
+        <member name="F:WindowsSOAClient.ServiceUrl.Url">
+            <summary>
+            The web service url.
+            </summary>
+        </member>
+        <member name="T:WindowsSOAClient.PatternAction.Service">
+            <remarks/>
+        </member>
+        <member name="M:WindowsSOAClient.PatternAction.Service.#ctor">
+            <remarks/>
+        </member>
+        <member name="E:WindowsSOAClient.PatternAction.Service.LoginCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WindowsSOAClient.PatternAction.Service.LogoutCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WindowsSOAClient.PatternAction.Service.GetCustomersCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WindowsSOAClient.PatternAction.Service.PersistCustomerCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WindowsSOAClient.PatternAction.Service.GetCustomerOrdersCompleted">
+            <remarks/>
+        </member>
+        <member name="M:WindowsSOAClient.PatternAction.Service.Login(WindowsSOAClient.PatternAction.LoginRequest)">
+            <remarks/>
+        </member>
+        <member name="M:WindowsSOAClient.PatternAction.Service.LoginAsync(WindowsSOAClient.PatternAction.LoginRequest)">
+            <remarks/>
+        </member>
+        <member name="M:WindowsSOAClient.PatternAction.Service.LoginAsync(WindowsSOAClient.PatternAction.LoginRequest,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WindowsSOAClient.PatternAction.Service.Logout(WindowsSOAClient.PatternAction.LogoutRequest)">
+            <remarks/>
+        </member>
+        <member name="M:WindowsSOAClient.PatternAction.Service.LogoutAsync(WindowsSOAClient.PatternAction.LogoutRequest)">
+            <remarks/>
+        </member>
+        <member name="M:WindowsSOAClient.PatternAction.Service.LogoutAsync(WindowsSOAClient.PatternAction.LogoutRequest,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WindowsSOAClient.PatternAction.Service.GetCustomers(WindowsSOAClient.PatternAction.CustomerRequest)">
+            <remarks/>
+        </member>
+        <member name="M:WindowsSOAClient.PatternAction.Service.GetCustomersAsync(WindowsSOAClient.PatternAction.CustomerRequest)">
+            <remarks/>
+        </member>
+        <member name="M:WindowsSOAClient.PatternAction.Service.GetCustomersAsync(WindowsSOAClient.PatternAction.CustomerRequest,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WindowsSOAClient.PatternAction.Service.PersistCustomer(WindowsSOAClient.PatternAction.PersistCustomerRequest)">
+            <remarks/>
+        </member>
+        <member name="M:WindowsSOAClient.PatternAction.Service.PersistCustomerAsync(WindowsSOAClient.PatternAction.PersistCustomerRequest)">
+            <remarks/>
+        </member>
+        <member name="M:WindowsSOAClient.PatternAction.Service.PersistCustomerAsync(WindowsSOAClient.PatternAction.PersistCustomerRequest,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WindowsSOAClient.PatternAction.Service.GetCustomerOrders(WindowsSOAClient.PatternAction.OrderRequest)">
+            <remarks/>
+        </member>
+        <member name="M:WindowsSOAClient.PatternAction.Service.GetCustomerOrdersAsync(WindowsSOAClient.PatternAction.OrderRequest)">
+            <remarks/>
+        </member>
+        <member name="M:WindowsSOAClient.PatternAction.Service.GetCustomerOrdersAsync(WindowsSOAClient.PatternAction.OrderRequest,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WindowsSOAClient.PatternAction.Service.CancelAsync(System.Object)">
+            <remarks/>
+        </member>
+        <member name="T:WindowsSOAClient.PatternAction.LoginRequest">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.LoginRequest.UserName">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.LoginRequest.Password">
+            <remarks/>
+        </member>
+        <member name="T:WindowsSOAClient.PatternAction.RequestBase">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.RequestBase.SecurityToken">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.RequestBase.Version">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.RequestBase.RequestId">
+            <remarks/>
+        </member>
+        <member name="T:WindowsSOAClient.PatternAction.ResponseBase">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.ResponseBase.Acknowledge">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.ResponseBase.CorrelationId">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.ResponseBase.Message">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.ResponseBase.ReservationId">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.ResponseBase.ReservationExpires">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.ResponseBase.Version">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.ResponseBase.Build">
+            <remarks/>
+        </member>
+        <member name="T:WindowsSOAClient.PatternAction.AcknowledgeType">
+            <remarks/>
+        </member>
+        <member name="F:WindowsSOAClient.PatternAction.AcknowledgeType.Failure">
+            <remarks/>
+        </member>
+        <member name="F:WindowsSOAClient.PatternAction.AcknowledgeType.Success">
+            <remarks/>
+        </member>
+        <member name="T:WindowsSOAClient.PatternAction.OrderResponse">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.OrderResponse.Orders">
+            <remarks/>
+        </member>
+        <member name="T:WindowsSOAClient.PatternAction.OrderTransferObject">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.OrderTransferObject.OrderId">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.OrderTransferObject.OrderDate">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.OrderTransferObject.RequiredDate">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.OrderTransferObject.Freight">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.OrderTransferObject.OrderDetails">
+            <remarks/>
+        </member>
+        <member name="T:WindowsSOAClient.PatternAction.OrderDetailTransferObject">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.OrderDetailTransferObject.Product">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.OrderDetailTransferObject.Quantity">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.OrderDetailTransferObject.UnitPrice">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.OrderDetailTransferObject.Discount">
+            <remarks/>
+        </member>
+        <member name="T:WindowsSOAClient.PatternAction.PersistCustomerResponse">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.PersistCustomerResponse.Customer">
+            <remarks/>
+        </member>
+        <member name="T:WindowsSOAClient.PatternAction.CustomerTransferObject">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.CustomerTransferObject.CustomerId">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.CustomerTransferObject.Company">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.CustomerTransferObject.City">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.CustomerTransferObject.Country">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.CustomerTransferObject.NumOrders">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.CustomerTransferObject.LastOrderDate">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.CustomerTransferObject.Orders">
+            <remarks/>
+        </member>
+        <member name="T:WindowsSOAClient.PatternAction.CustomerResponse">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.CustomerResponse.Customers">
+            <remarks/>
+        </member>
+        <member name="T:WindowsSOAClient.PatternAction.LogoutResponse">
+            <remarks/>
+        </member>
+        <member name="T:WindowsSOAClient.PatternAction.LoginResponse">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.LoginResponse.Uri">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.LoginResponse.SessionId">
+            <remarks/>
+        </member>
+        <member name="T:WindowsSOAClient.PatternAction.OrderRequest">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.OrderRequest.CustomerId">
+            <remarks/>
+        </member>
+        <member name="T:WindowsSOAClient.PatternAction.PersistCustomerRequest">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.PersistCustomerRequest.PersistAction">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.PersistCustomerRequest.Customer">
+            <remarks/>
+        </member>
+        <member name="T:WindowsSOAClient.PatternAction.PersistType">
+            <remarks/>
+        </member>
+        <member name="F:WindowsSOAClient.PatternAction.PersistType.Insert">
+            <remarks/>
+        </member>
+        <member name="F:WindowsSOAClient.PatternAction.PersistType.Update">
+            <remarks/>
+        </member>
+        <member name="F:WindowsSOAClient.PatternAction.PersistType.Delete">
+            <remarks/>
+        </member>
+        <member name="T:WindowsSOAClient.PatternAction.CustomerRequest">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.CustomerRequest.SortExpression">
+            <remarks/>
+        </member>
+        <member name="T:WindowsSOAClient.PatternAction.LogoutRequest">
+            <remarks/>
+        </member>
+        <member name="T:WindowsSOAClient.PatternAction.LoginCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WindowsSOAClient.PatternAction.LoginCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.LoginCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WindowsSOAClient.PatternAction.LogoutCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WindowsSOAClient.PatternAction.LogoutCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.LogoutCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WindowsSOAClient.PatternAction.GetCustomersCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WindowsSOAClient.PatternAction.GetCustomersCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.GetCustomersCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WindowsSOAClient.PatternAction.PersistCustomerCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WindowsSOAClient.PatternAction.PersistCustomerCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.PersistCustomerCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WindowsSOAClient.PatternAction.GetCustomerOrdersCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WindowsSOAClient.PatternAction.GetCustomerOrdersCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WindowsSOAClient.PatternAction.GetCustomerOrdersCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+    </members>
+</doc>

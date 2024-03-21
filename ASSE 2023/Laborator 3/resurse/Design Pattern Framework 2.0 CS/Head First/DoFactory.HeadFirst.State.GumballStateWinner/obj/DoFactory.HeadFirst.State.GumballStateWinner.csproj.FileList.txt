@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.HeadFirst.State.GumballStateWinner.exe
+bin\Debug\DoFactory.HeadFirst.State.GumballStateWinner.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.HeadFirst.State.GumballStateWinner.exe
+obj\Debug\DoFactory.HeadFirst.State.GumballStateWinner.pdb

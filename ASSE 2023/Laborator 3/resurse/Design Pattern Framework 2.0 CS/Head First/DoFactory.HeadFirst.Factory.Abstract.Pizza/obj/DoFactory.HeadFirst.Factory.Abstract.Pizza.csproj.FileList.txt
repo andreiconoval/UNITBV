@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.HeadFirst.Factory.Abstract.Pizza.exe
+bin\Debug\DoFactory.HeadFirst.Factory.Abstract.Pizza.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.HeadFirst.Factory.Abstract.Pizza.exe
+obj\Debug\DoFactory.HeadFirst.Factory.Abstract.Pizza.pdb

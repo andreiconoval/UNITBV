@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.931818181818182" branch-rate="1" lines-covered="41" lines-valid="44" branches-covered="14" branches-valid="14" complexity="13" version="0" timestamp="1697409438">
+  <sources />
+  <packages>
+    <package name="TestVector" line-rate="1" branch-rate="1" complexity="NaN">
+      <classes />
+    </package>
+    <package name="VectorLibrary" line-rate="0.931818181818182" branch-rate="1" complexity="13">
+      <classes>
+        <class name="VectorLibrary.Exceptions.EmptyContentsException" filename="D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 2\VectorLibrary\VectorLibrary\Exceptions\EmptyContentsException.cs" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods>
+            <method name=".ctor" signature="(System.String)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="VectorLibrary.Exceptions.NullContentsException" filename="D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 2\VectorLibrary\VectorLibrary\Exceptions\NullContentsException.cs" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods>
+            <method name=".ctor" signature="(System.String)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="VectorLibrary.Vector" filename="D:\work\school\cursuri\ASSE\2023-2024\Laborator\Laborator 2\VectorLibrary\VectorLibrary\Vector.cs" line-rate="0.921052631578947" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Length" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="59" hits="60" branch="false" />
+              </lines>
+            </method>
+            <method name="Item" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="73" hits="36" branch="false" />
+              </lines>
+            </method>
+            <method name="Item" signature="(System.Int32,System.Double)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="74" hits="9" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="22" hits="4" branch="false" />
+                <line number="23" hits="4" branch="false" />
+                <line number="24" hits="4" branch="true" condition-coverage="100% (2/2)" />
+                <line number="25" hits="2" branch="false" />
+                <line number="26" hits="2" branch="false" />
+                <line number="28" hits="2" branch="false" />
+                <line number="29" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Double[])" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="37" hits="9" branch="false" />
+                <line number="38" hits="9" branch="false" />
+                <line number="39" hits="9" branch="true" condition-coverage="100% (2/2)" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="43" hits="8" branch="true" condition-coverage="100% (2/2)" />
+                <line number="44" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+                <line number="47" hits="7" branch="false" />
+                <line number="48" hits="7" branch="false" />
+                <line number="49" hits="7" branch="false" />
+              </lines>
+            </method>
+            <method name="op_Addition" signature="(VectorLibrary.Vector,VectorLibrary.Vector)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="91" hits="4" branch="false" />
+                <line number="92" hits="4" branch="true" condition-coverage="100% (4/4)" />
+                <line number="93" hits="2" branch="false" />
+                <line number="94" hits="2" branch="false" />
+                <line number="96" hits="2" branch="true" condition-coverage="100% (2/2)" />
+                <line number="97" hits="1" branch="false" />
+                <line number="98" hits="1" branch="false" />
+                <line number="100" hits="1" branch="false" />
+                <line number="101" hits="8" branch="true" condition-coverage="100% (2/2)" />
+                <line number="102" hits="3" branch="false" />
+                <line number="103" hits="3" branch="false" />
+                <line number="104" hits="3" branch="false" />
+                <line number="105" hits="1" branch="false" />
+                <line number="106" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="MyMethod" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="109" hits="0" branch="false" />
+                <line number="110" hits="0" branch="false" />
+                <line number="111" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="22" hits="4" branch="false" />
+            <line number="23" hits="4" branch="false" />
+            <line number="24" hits="4" branch="true" condition-coverage="100% (2/2)" />
+            <line number="25" hits="2" branch="false" />
+            <line number="26" hits="2" branch="false" />
+            <line number="28" hits="2" branch="false" />
+            <line number="29" hits="2" branch="false" />
+            <line number="37" hits="9" branch="false" />
+            <line number="38" hits="9" branch="false" />
+            <line number="39" hits="9" branch="true" condition-coverage="100% (2/2)" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="43" hits="8" branch="true" condition-coverage="100% (2/2)" />
+            <line number="44" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="47" hits="7" branch="false" />
+            <line number="48" hits="7" branch="false" />
+            <line number="49" hits="7" branch="false" />
+            <line number="59" hits="60" branch="false" />
+            <line number="73" hits="36" branch="false" />
+            <line number="74" hits="9" branch="false" />
+            <line number="91" hits="4" branch="false" />
+            <line number="92" hits="4" branch="true" condition-coverage="100% (4/4)" />
+            <line number="93" hits="2" branch="false" />
+            <line number="94" hits="2" branch="false" />
+            <line number="96" hits="2" branch="true" condition-coverage="100% (2/2)" />
+            <line number="97" hits="1" branch="false" />
+            <line number="98" hits="1" branch="false" />
+            <line number="100" hits="1" branch="false" />
+            <line number="101" hits="8" branch="true" condition-coverage="100% (2/2)" />
+            <line number="102" hits="3" branch="false" />
+            <line number="103" hits="3" branch="false" />
+            <line number="104" hits="3" branch="false" />
+            <line number="105" hits="1" branch="false" />
+            <line number="106" hits="1" branch="false" />
+            <line number="109" hits="0" branch="false" />
+            <line number="110" hits="0" branch="false" />
+            <line number="111" hits="0" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

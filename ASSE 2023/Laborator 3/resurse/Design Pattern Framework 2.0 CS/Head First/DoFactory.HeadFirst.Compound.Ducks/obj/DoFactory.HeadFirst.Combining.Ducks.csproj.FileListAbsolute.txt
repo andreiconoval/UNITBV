@@ -1,0 +1,5 @@
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Compound.Ducks\bin\Debug\DoFactory.HeadFirst.Compound.Ducks.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Compound.Ducks\bin\Debug\DoFactory.HeadFirst.Compound.Ducks.pdb
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Compound.Ducks\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Compound.Ducks\obj\Debug\DoFactory.HeadFirst.Compound.Ducks.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Compound.Ducks\obj\Debug\DoFactory.HeadFirst.Compound.Ducks.pdb

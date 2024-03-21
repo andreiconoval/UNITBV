@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.HeadFirst.State.Gumball.exe
+bin\Debug\DoFactory.HeadFirst.State.Gumball.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.HeadFirst.State.Gumball.exe
+obj\Debug\DoFactory.HeadFirst.State.Gumball.pdb

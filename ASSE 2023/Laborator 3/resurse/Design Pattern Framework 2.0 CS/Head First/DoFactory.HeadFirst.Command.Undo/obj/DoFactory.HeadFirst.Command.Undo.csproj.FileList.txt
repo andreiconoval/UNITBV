@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.HeadFirst.Command.Undo.exe
+bin\Debug\DoFactory.HeadFirst.Command.Undo.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.HeadFirst.Command.Undo.exe
+obj\Debug\DoFactory.HeadFirst.Command.Undo.pdb

@@ -1,0 +1,5 @@
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Iterator.DinerMergerI\bin\Debug\DoFactory.HeadFirst.Iterator.DinerMergerI.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Iterator.DinerMergerI\bin\Debug\DoFactory.HeadFirst.Iterator.DinerMergerI.pdb
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Iterator.DinerMergerI\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Iterator.DinerMergerI\obj\Debug\DoFactory.HeadFirst.Iterator.DinerMergerI.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.Iterator.DinerMergerI\obj\Debug\DoFactory.HeadFirst.Iterator.DinerMergerI.pdb

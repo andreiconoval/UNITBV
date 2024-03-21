@@ -1,0 +1,5 @@
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.State.GumballStateWinner\bin\Debug\DoFactory.HeadFirst.State.GumballStateWinner.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.State.GumballStateWinner\bin\Debug\DoFactory.HeadFirst.State.GumballStateWinner.pdb
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.State.GumballStateWinner\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.State.GumballStateWinner\obj\Debug\DoFactory.HeadFirst.State.GumballStateWinner.exe
+C:\Program Files\DoFactory\Design Pattern Framework 2.0 CS\Head First\DoFactory.HeadFirst.State.GumballStateWinner\obj\Debug\DoFactory.HeadFirst.State.GumballStateWinner.pdb

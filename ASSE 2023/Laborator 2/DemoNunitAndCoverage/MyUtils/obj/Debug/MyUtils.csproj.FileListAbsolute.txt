@@ -1,0 +1,32 @@
+d:\Temp\delme_laborator\DemoCoverage\MyUtils\bin\Debug\MyUtils.dll
+d:\Temp\delme_laborator\DemoCoverage\MyUtils\bin\Debug\MyUtils.pdb
+d:\Temp\delme_laborator\DemoCoverage\MyUtils\obj\Debug\MyUtils.dll
+d:\Temp\delme_laborator\DemoCoverage\MyUtils\obj\Debug\MyUtils.pdb
+d:\Temp\delme_laborator\DemoCoverageNunit\MyUtils\bin\Debug\MyUtils.dll
+d:\Temp\delme_laborator\DemoCoverageNunit\MyUtils\bin\Debug\MyUtils.pdb
+d:\Temp\delme_laborator\DemoCoverageNunit\MyUtils\obj\Debug\MyUtils.dll
+d:\Temp\delme_laborator\DemoCoverageNunit\MyUtils\obj\Debug\MyUtils.pdb
+d:\Temp\delme_laborator\DemoCoverageNunit\MyUtils\obj\Debug\MyUtils.csprojResolveAssemblyReference.cache
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 2\DemoNunitAndCoverage\MyUtils\bin\Debug\MyUtils.dll
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 2\DemoNunitAndCoverage\MyUtils\bin\Debug\MyUtils.pdb
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 2\DemoNunitAndCoverage\MyUtils\obj\Debug\MyUtils.csproj.CoreCompileInputs.cache
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 2\DemoNunitAndCoverage\MyUtils\obj\Debug\MyUtils.dll
+d:\work\school\cursuri\ASSE\2018-2019\Laborator\Laborator 2\DemoNunitAndCoverage\MyUtils\obj\Debug\MyUtils.pdb
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 2\DemoNunitAndCoverage\MyUtils\bin\Debug\MyUtils.dll
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 2\DemoNunitAndCoverage\MyUtils\bin\Debug\MyUtils.pdb
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 2\DemoNunitAndCoverage\MyUtils\obj\Debug\MyUtils.csprojAssemblyReference.cache
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 2\DemoNunitAndCoverage\MyUtils\obj\Debug\MyUtils.csproj.CoreCompileInputs.cache
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 2\DemoNunitAndCoverage\MyUtils\obj\Debug\MyUtils.dll
+d:\work\school\cursuri\ASSE\2020-2021\Laborator\Laborator 2\DemoNunitAndCoverage\MyUtils\obj\Debug\MyUtils.pdb
+d:\work\school\cursuri\ASSE\2021-2022\Laborator\Laborator 2\DemoNunitAndCoverage\MyUtils\bin\Debug\MyUtils.dll
+d:\work\school\cursuri\ASSE\2021-2022\Laborator\Laborator 2\DemoNunitAndCoverage\MyUtils\bin\Debug\MyUtils.pdb
+d:\work\school\cursuri\ASSE\2021-2022\Laborator\Laborator 2\DemoNunitAndCoverage\MyUtils\obj\Debug\MyUtils.csproj.AssemblyReference.cache
+d:\work\school\cursuri\ASSE\2021-2022\Laborator\Laborator 2\DemoNunitAndCoverage\MyUtils\obj\Debug\MyUtils.csproj.CoreCompileInputs.cache
+d:\work\school\cursuri\ASSE\2021-2022\Laborator\Laborator 2\DemoNunitAndCoverage\MyUtils\obj\Debug\MyUtils.dll
+d:\work\school\cursuri\ASSE\2021-2022\Laborator\Laborator 2\DemoNunitAndCoverage\MyUtils\obj\Debug\MyUtils.pdb
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 2\DemoNunitAndCoverage\MyUtils\bin\Debug\MyUtils.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 2\DemoNunitAndCoverage\MyUtils\bin\Debug\MyUtils.pdb
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 2\DemoNunitAndCoverage\MyUtils\obj\Debug\MyUtils.csproj.AssemblyReference.cache
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 2\DemoNunitAndCoverage\MyUtils\obj\Debug\MyUtils.csproj.CoreCompileInputs.cache
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 2\DemoNunitAndCoverage\MyUtils\obj\Debug\MyUtils.dll
+D:\work\school\cursuri\ASSE\2022-2023\Laborator\Laborator 2\DemoNunitAndCoverage\MyUtils\obj\Debug\MyUtils.pdb

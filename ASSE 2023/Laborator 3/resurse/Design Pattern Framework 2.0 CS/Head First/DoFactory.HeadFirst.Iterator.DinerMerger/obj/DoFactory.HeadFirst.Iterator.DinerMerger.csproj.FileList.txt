@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.HeadFirst.Iterator.DinerMerger.exe
+bin\Debug\DoFactory.HeadFirst.Iterator.DinerMerger.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.HeadFirst.Iterator.DinerMerger.exe
+obj\Debug\DoFactory.HeadFirst.Iterator.DinerMerger.pdb
